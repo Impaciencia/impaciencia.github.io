@@ -1,0 +1,27 @@
+<!-- Header Start -->
+<header>
+<div id="header">
+<a class="logo" href=""> <img src="img/IMPACIENCIA_logo.svg"> </a>
+<ul class="navbar">
+	  <li class="menuparticipa"> <a href="{{ site.baseurl }}/participa"> Participa </a></li>
+	  <li class="menuaprende"> <a href="{{ site.baseurl }}/aprende"> Aprende </a></li>
+	  <li> <a href="{{ site.baseurl }}/comunidad"> Comunidad </a></li>
+	  <li> <a href="{{ site.baseurl }}/proyectos"> Proyectos </a></li>
+	  <li> <a href="{{ site.baseurl }}/blog"> Blog </a></li>
+	  <li class="menucontacto"> <a href="{{ site.baseurl }}/contacto"> Contacto </a></li>
+	  <li class="calendario"> <a href=""> <img src="{{ site.baseurl }}/img/calendario"> </a></li>
+</ul>
+</div>
+
+<script>
+$(window).scroll(function () {
+
+  if( $(window).scrollTop()>10)
+	$("#header").addClass("scrolled")
+  if( $(window).scrollTop()<10)
+	$("#header").removeClass('scrolled')
+
+})
+</script>
+</header>
+<!-- Header Ends -->
