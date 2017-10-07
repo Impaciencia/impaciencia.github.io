@@ -14,6 +14,9 @@
 		})
 		</script>
 
+	{% elseif page.url == site.url/"contacto" %}
+	 	<a class="logobasic" href="{{ site.url }}"> <img src="img/IMPACIENCIA_logoblanco.svg"> </a>
+
 	{% else %}
 		<a class="logobasic" href="{{ site.url }}"> <img src="{{ site.baseurl }}/img/IMPACIENCIA_logo.svg"> </a>
 	{% endif %}
@@ -24,7 +27,7 @@
 	  <li> <a href="{{ site.baseurl }}/comunidad"> Comunidad </a></li>
 	  <li> <a href="{{ site.baseurl }}/proyectos"> Proyectos </a></li>
 	  <li> <a href="{{ site.baseurl }}/blog"> Blog </a></li>
-	  <li class="menucontacto"> <a href="{{ site.baseurl }}/contacto"> Contacto </a></li>
+	  <li class="menucontacto"> <a href="{{ site.baseurl }}/contacto"> ¿Dudas? </a></li>
 	  <li class="calendario"> <a href=""> <img src="{{ site.baseurl }}/img/calendario.png"> </a></li>
 </ul>
 </div>

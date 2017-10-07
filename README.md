@@ -16,3 +16,4 @@ impaciencia website
 - [ ] Secci'on Calendario
 - [ ] Fix dates in blog
 - [x] favicon
+- [ ] contacto logo
