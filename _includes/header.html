@@ -1,7 +1,7 @@
 <!-- Header Start -->
 <header>
 <div id="header">
-	{% if page.url ==  site.url  %}
+	{% if page.url ==  "/index.html"  %}
 		<a class="logo" href="{{ site.url }}"> <img src="{{ site.url }}/img/IMPACIENCIA_logo.svg">
 		<script>
 		$(window).scroll(function () {
@@ -13,6 +13,9 @@
 
 		})
 		</script>
+
+	{% elseif page.url == "/contacto.html" %}
+		 	<a class="logobasic" href="{{ site.url }}"> <img src="img/IMPACIENCIA_logoblanco.svg"> </a>
 
 	{% else %}
 		<a class="logobasic" href="{{ site.url }}"> <img src="{{ site.baseurl }}/img/IMPACIENCIA_logo.svg"> </a>
