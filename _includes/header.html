@@ -1,8 +1,8 @@
 <!-- Header Start -->
 <header>
 <div id="header">
-	{% if page.url ==  "home"  %}
-		<a class="logo" href="{{ site.url }}"> <img src="{{ site.url }}/img/IMPACIENCIA_logo.svg">
+	{% if page.id ==  "home"  %}
+		<a class="logo" href="{{ site.url }}"> <img src="{{ site.url }}/img/IMPACIENCIA_logo.svg"></a>
 		<script>
 		$(window).scroll(function () {
 
@@ -14,14 +14,19 @@
 		})
 		</script>
 
-	{% elseif page.id == "contacto" %}
-		 	<a class="logobasic" href="{{ site.url }}"> <img src="img/IMPACIENCIA_logoblanco.svg"> </a>
+	{% elsif page.id == "contacto" %}
+		 	<a class="logobasic" href="{{ site.url }}"> <img src="{{ site.baseurl }}/img/IMPACIENCIA_logoblanco.svg"> </a>
 
 	{% else %}
 		<a class="logobasic" href="{{ site.url }}"> <img src="{{ site.baseurl }}/img/IMPACIENCIA_logo.svg"> </a>
 	{% endif %}
- </a>
-<ul class="navbar">
+
+
+	 {% if page.id ==  "contacto"  %}
+	<ul class="navbarblanco">
+	 {% else %}
+	<ul class="navbar">
+	{% endif %}
 	  <li class="menuparticipa"> <a href="{{ site.baseurl }}/participa"> Participa </a></li>
 	  <li class="menuaprende"> <a href="{{ site.baseurl }}/aprende"> Aprende </a></li>
 	  <li> <a href="{{ site.baseurl }}/comunidad"> Comunidad </a></li>
