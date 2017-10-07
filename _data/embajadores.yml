@@ -1,0 +1,7 @@
+- name: "Hacklab Almería"
+  ciudad: Almería
+  short-bio: "Grupo Maker Almería"
+  web: http://www.hacklabalmeria.org
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/hla-logo.jpg
+  contact: "info@hla.org"

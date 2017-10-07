@@ -1,0 +1,17 @@
+---
+layout: proyectos_layout
+title: Proyectos
+permalink: /proyectos/
+---
+
+{% for proyecto in site.data.proyectos %}
+
+<div class="cajaproyecto">
+	<div class="thumbnailproyecto">
+		<a href="{{ proyecto.link }}"> <img src="{{ proyecto.thumbnail | absolute_url }}"> </a>
+	</div>
+	<h4> {{ proyecto.title }} </h4>
+	<div class="categoria"> Equipo: <a href=""> {{ proyecto.equipo }} </a> </div>
+</div>
+
+{% endfor %}

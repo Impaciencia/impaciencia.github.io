@@ -1,3 +1,19 @@
 ---
 layout: page
 ---
+
+<div id="post">
+
+	<div class="datapost"> {{ page.date | date: "%B.%-d.%Y" }} </div>
+
+	<h1>{{ page.title }}</h1>
+
+	<p>{{ content }}</p>
+
+	<div class="categoria"> Publicado por: <a href=""> {{ page.author }} </a> </div>
+
+	<div class="categoria"> Archivado en: {{ page.categories }} </a> </div>
+
+	<div class="navpost"> <a class="anterior" href=""> ← Anterior </a> <a style="text-align: center; "href="{{ site.baseurl }}/blog"> Back to blog </a> <a class="siguiente" href=""> Siguiente → </a> </div>
+
+</div>

@@ -1,0 +1,27 @@
+- title: "Titulo 001"
+  thumbnail: img/robot-robots.jpg
+  equipo:
+    - Kato
+    - Albert
+    - JSB
+    - Luigy
+    - Curro
+  link: www.impaciencia.github.io
+- title: "Titulo 002"
+  thumbnail: img/arteyciencia.jpg
+  equipo:
+    - Kato
+    - Albert
+    - JSB
+    - Luigy
+    - Curro
+  link: www.impaciencia.github.io
+- title: "Titulo 003"
+  thumbnail: img/espacio-06.jpg
+  equipo:
+    - Kato
+    - Albert
+    - JSB
+    - Luigy
+    - Curro
+  link: www.impaciencia.github.io

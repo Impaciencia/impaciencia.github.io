@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+<div id="cajablog">
+
+{% for post in site.posts %}
+
+<div class="cajapost">
+
+	<div class="thumbnailpost">
+		<a href="{{ post.url | absolute_url }}"> <img src="{{ post.thumbnail | absolute_url }}"> </a>
+	</div>
+
+	<div class="datapost"> {{ page.date | date: "%B.%-d.%Y" }} </div>
+	<a href="{{ post.url | absolute_url }}"> <h1> {{ post.title }} </h1> </a>
+
+	<div class="categoria"> Publicado por: <a href=""> {{ post.author }} </a> </div>
+    <div class="categoria"> Archivado en: {{ post.categories }} </div>
+
+</div>
+
+{% endfor %}
+
+</div>
