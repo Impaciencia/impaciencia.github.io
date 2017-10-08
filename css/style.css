@@ -1,3 +1,9 @@
+/* 
+Theme name: Impaciencia
+Author: marinaguadix
+Description: Tema diseñado para Impaciencia
+ */
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -60,7 +66,7 @@
 }
 
 
-/* Falta el .otf de cada una
+/* Falta el .otf de cada una 
 
 @font-face {
     font-family: 'calling_code_bold';
@@ -103,6 +109,7 @@ h1 {
 
 h4 {
     font-size: 20px;
+    line-height: 26px;
     margin-bottom: 10px;
 }
 
@@ -136,7 +143,6 @@ p {
     padding: 80px;
 }
 
-
 #container {
     width: 100%;
 }
@@ -148,9 +154,9 @@ p {
     width: 100%;
     position: fixed;
     z-index: 100;
-}
+} 
 
-.logo img {
+.logo img { 
     height: 80vh;
     width: auto;
     float: left;
@@ -179,7 +185,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 10px; 
     margin-right: 12px;
     color: #2c292a;
 }
@@ -225,6 +231,15 @@ p {
     background-color: none;
 }
 
+.menu {
+    display: none;
+}
+
+.menuresponsive {
+    display: none;
+}
+
+
 
 /********* NAVBAR EN BLANCO *********/
 
@@ -233,7 +248,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 10px; 
     margin-right: 12px;
     color: white;
 }
@@ -520,7 +535,7 @@ p {
 #post .categoria {
     width: 80%;
     float: right;
-    clear: both;
+    clear: both; 
 }
 
 .navpost {
@@ -655,7 +670,7 @@ p {
     background-color: white;
 }
 
-.cursos {
+#cursos {
     width: 60%;
     margin: 0 auto;
     margin-top: 80px;
@@ -664,19 +679,96 @@ p {
     color: #1d9e28;
 }
 
-.cursos p {
+#cursos p {
     text-align: left;
 }
 
-.cursos img {
+#cursos img {
     width: 100%;
     max-width: 100%;
     margin-top: 20px;
 }
 
-.cursos iframe {
+.cajacurso {
+    width: 30%;
+    float: left;
+    margin-bottom: 100px;
+    margin-right: 3%;
+}
+
+.cajacurso p {
+    margin: 0;
+}
+
+.thumbnailcurso {
+    width: 100%;
+    float: left;
+    /* background-color: #1d9e28; */
+}
+
+.thumbnailcurso img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+/* .thumbnailcurso img:hover {
+    opacity: 0.1;
+} */
+
+.cajacurso h4 {
+    width: 100%;
+    color: #1d9e28;
+    border-top: 1px solid;
+    /* border-bottom: 1px solid; */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.cajacurso .categoria {
+    width: 100%;
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+    clear: none;
+    color: #1d9e28;
+}
+
+/* .cajacurso a {
+    color: #1d9e28;
+} */
+
+#conferencias {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: white;
+    color: #1d9e28;
+    clear: both;
+}
+
+#conferencias p {
+    text-align: left;
+}
+
+#conferencias img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+#conferencias iframe {
     width: 100%;
     margin-top: 20px;
+}
+
+#conferencias .piefoto {
+    padding-bottom: 30px;
+    width: 30%;
 }
 
 
@@ -816,7 +908,7 @@ p {
     width: 100%;
     max-width: 100%;
 }
-
+ 
 .cajaembajador {
     width: 30%;
     float: left;
@@ -945,7 +1037,7 @@ p {
     padding: 5px;
     height: 120px;
 }
-
+    
 .contenidocontacto .boton a {
     color: white;
     border-top: solid 1px;
@@ -958,4 +1050,106 @@ p {
 .contenidocontacto .boton a:hover {
     background-color: white;
     color: #2c292a;
+}
+
+
+/********* RESPONSIVE *********/
+
+/* No solo pensar en pantallas más pequeñas, también en grandes... de cara por ejemplo
+a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes 
+
+@media only screen and (max-width: 1280px) {
+
+    .site-inner,
+    .wrap {
+        max-width: 1140px;
+    }
+    
+} */
+
+@media screen and (max-width: 1000px) {
+
+/********* RESPONSIVE GENERAL *********/
+
+h1 {
+    
+    /* position: inherit; */
+    
+} 
+
+.navbar {
+    display: none;
+}
+
+.menu {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 22px;
+    color: #2c292a;
+    background-color: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    padding: 5px;
+}
+
+.menuresponsive {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+}
+
+.menuresponsive li {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+}
+
+.menuresponsive a {
+    text-decoration: none;
+    color: #2c292a;
+}
+
+.menuaprende a {
+    color: #1d9e28;
+}
+
+.menuparticipa a {
+    color: #e80064;
+}
+
+.menucontacto a {
+    color: #2c292a;
+}
+
+.menuresponsive img {
+    width: 25px;
+}
+
+
+/********* RESPONSIVE HOME *********/
+
+.texto {
+    width: 100%;
+    padding: 80px;
+}
+
+.intro .texto {
+    margin-left: 0%;
+    color: white;
+}
+
+.aprende .texto {
+    margin-left: 0%;
+    color: white;
+}
+
+
+
+
+
+
 }
