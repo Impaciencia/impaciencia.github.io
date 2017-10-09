@@ -1,3 +1,9 @@
+/*
+Theme name: Impaciencia
+Author: marinaguadix
+Description: Tema diseñado para Impaciencia
+ */
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -103,6 +109,7 @@ h1 {
 
 h4 {
     font-size: 20px;
+    line-height: 26px;
     margin-bottom: 10px;
 }
 
@@ -135,7 +142,6 @@ p {
     width: 60%;
     padding: 80px;
 }
-
 
 #container {
     width: 100%;
@@ -225,6 +231,15 @@ p {
     background-color: none;
 }
 
+.menu {
+    display: none;
+}
+
+.menuresponsive {
+    display: none;
+}
+
+
 
 /********* NAVBAR EN BLANCO *********/
 
@@ -291,7 +306,40 @@ p {
 
 .footer .texto {
     margin-left: 0%;
+    width: 50%;
+    float: left;
 }
+
+.footer .rrss {
+    width: 25%;
+    float: left;
+    margin-top: 80px;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.footer .logos {
+    width: 100%;
+    border-top: dashed 1px;
+    clear: both;
+    padding: 30px;
+    padding-left: 78px;
+}
+
+
 
 
 /********* HOME *********/
@@ -311,13 +359,83 @@ p {
     margin-top: -236.5px;
 }
 
-.intro {
+.home h1 {
+    position: absolute;
+    left: 22px;
+    bottom: 50px;
+    text-align: left;
+}
+
+.postit1 {
+    z-index: 50;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 150px;
+    bottom: 300px;
+    background-color: #284dd6;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+-webkit-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+-moz-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+}
+
+.postit2 {
+    z-index: 60;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 300px;
+    bottom: 550px;
+    background-color: #e80064;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+-webkit-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+-moz-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+}
+
+.postit3 {
+    z-index: 70;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 600px;
+    bottom: 300px;
+    background-color: #1d9e28;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+-webkit-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+-moz-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
+}
+
+.cerrarpostit {
+    float: right;
+    margin-top: 10px;
+}
+
+.scroll {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.scroll img {
+     width: 300px;
+}
+
+#intro {
     width: 100%;
     clear: both;
     background-color: #284dd6;
 }
 
-.intro .texto {
+#intro .texto {
     margin-left: 40%;
     color: white;
 }
@@ -655,7 +773,7 @@ p {
     background-color: white;
 }
 
-.cursos {
+#cursos {
     width: 60%;
     margin: 0 auto;
     margin-top: 80px;
@@ -664,19 +782,96 @@ p {
     color: #1d9e28;
 }
 
-.cursos p {
+#cursos p {
     text-align: left;
 }
 
-.cursos img {
+#cursos img {
     width: 100%;
     max-width: 100%;
     margin-top: 20px;
 }
 
-.cursos iframe {
+.cajacurso {
+    width: 30%;
+    float: left;
+    margin-bottom: 100px;
+    margin-right: 3%;
+}
+
+.cajacurso p {
+    margin: 0;
+}
+
+.thumbnailcurso {
+    width: 100%;
+    float: left;
+    /* background-color: #1d9e28; */
+}
+
+.thumbnailcurso img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+/* .thumbnailcurso img:hover {
+    opacity: 0.1;
+} */
+
+.cajacurso h4 {
+    width: 100%;
+    color: #1d9e28;
+    border-top: 1px solid;
+    /* border-bottom: 1px solid; */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.cajacurso .categoria {
+    width: 100%;
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+    clear: none;
+    color: #1d9e28;
+}
+
+/* .cajacurso a {
+    color: #1d9e28;
+} */
+
+#conferencias {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: white;
+    color: #1d9e28;
+    clear: both;
+}
+
+#conferencias p {
+    text-align: left;
+}
+
+#conferencias img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+#conferencias iframe {
     width: 100%;
     margin-top: 20px;
+}
+
+#conferencias .piefoto {
+    padding-bottom: 30px;
+    width: 30%;
 }
 
 
@@ -706,7 +901,6 @@ p {
     margin-right: 20px;
     text-align: left;
     float: left;
-    clear: both;
 }
 
 .contenidoparticipa .boton a {
@@ -750,6 +944,53 @@ p {
 }
 
 .bases .boton a:hover {
+    background-color: #2c292a;
+    color: white;
+}
+
+.bases input {
+    color: #2c292a;
+    background-color: white;
+    border-top: solid 1px #2c292a;
+    border-bottom: solid 1px #2c292a;
+    border-left: solid 1px #2c292a;
+    border-right: solid 1px #2c292a;
+    padding: 5px;
+    height: auto;
+    font-family: 'calling_code_regular';
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bases input:focus, textarea:focus {
+    border: solid 1px #2c292a;
+    outline: 0;
+}
+
+.bases .formulariotexto {
+    width: 100%;
+    height: 200px;
+    color: #2c292a;
+}
+
+.bases .formularioemail {
+    width: auto;
+    color: #2c292a;
+}
+
+.bases .enviar {
+    width: auto;
+    color: #2c292a;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    padding: 5px;
+}
+
+.bases .enviar:hover {
     background-color: #2c292a;
     color: white;
 }
@@ -936,26 +1177,202 @@ p {
     padding-bottom: 150px;
 }
 
-.formulario {
+input {
+    background-color: #2c292a;
+    color: white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    padding: 5px;
+    height: auto;
+    font-family: 'calling_code_regular';
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+    border: solid 1px white;
+    outline: 0;
+}
+
+.formulariotexto {
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+.formularioemail {
+    width: auto;
+    color: white;
+}
+
+.enviar {
+    width: auto;
     color: white;
     border-top: solid 1px;
     border-bottom: solid 1px;
     border-left: solid 1px;
     border-right: solid 1px;
     padding: 5px;
-    height: 120px;
 }
 
-.contenidocontacto .boton a {
-    color: white;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
-    border-left: solid 1px;
-    border-right: solid 1px;
-    padding: 5px;
-}
-
-.contenidocontacto .boton a:hover {
+.enviar:hover {
     background-color: white;
     color: #2c292a;
+}
+
+
+/********* RESPONSIVE *********/
+
+/* No solo pensar en pantallas más pequeñas, también en grandes... de cara por ejemplo
+a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
+
+@media only screen and (max-width: 1280px) {
+
+    .site-inner,
+    .wrap {
+        max-width: 1140px;
+    }
+
+} */
+
+@media screen and (max-width: 1000px) {
+
+/********* RESPONSIVE GENERAL *********/
+
+h1 {
+
+    /* position: inherit; */
+
+}
+
+.navbar {
+    display: none;
+}
+
+.navbarblanco {
+    display: none;
+}
+
+.menu {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 22px;
+    color: #2c292a;
+    background-color: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    padding: 5px;
+}
+
+.menuresponsive {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    font-family: 'calling_code_regular';
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.menuresponsive li {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: -16px;
+}
+
+.menuresponsive a {
+    text-decoration: none;
+    color: white;
+    background-color: #284dd6;
+}
+
+.menuaprende a {
+    background-color: #1d9e28;
+    color: white;
+}
+
+.menuparticipa a {
+    background-color: #e80064;
+    color: white;
+}
+
+.menucontacto a {
+    background-color: #2c292a;
+    color: white;
+}
+
+.menuresponsive img {
+    width: 25px;
+}
+
+.cerrarmenu {
+    display: inline;
+    color: #2c292a;
+    background-color: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    font-family: 'calling_code_regular';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/********* RESPONSIVE HOME *********/
+
+.texto {
+    width: 100%;
+    padding: 80px;
+}
+
+#intro .texto {
+    margin-left: 0%;
+    color: white;
+}
+
+.aprende .texto {
+    margin-left: 0%;
+    color: white;
+}
+
+
+/********* RESPONSIVE APRENDE *********/
+.cajacurso {
+    width: 47%;
+}
+
+
+}
+
+
+@media screen and (max-width: 434px) {
+
+.logo img {
+    width: 110px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/********* RESPONSIVE APRENDE *********/
+.cajacurso {
+    width: 100%;
+}
+
 }

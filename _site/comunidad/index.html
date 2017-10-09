@@ -18,6 +18,22 @@
 
 <link rel="shortcut icon" type="image/png" href="/img/IMPACIENCIA_favicon.png">
 
+<style type="text/css">
+            @media screen {
+            @font-face {
+            font-family: 'CC-ICONS';
+            font-style: normal;
+            font-weight: normal;
+            src: url('http://mirrors.creativecommons.org/presskit/cc-icons.ttf') format('truetype');
+            }
+
+            span.cc {
+            font-family: 'CC-ICONS';
+            color: white;
+            }
+            }
+        </style>
+
 	<script>
   // Script de google analytics
 </script>
@@ -37,6 +53,7 @@
 	 
 	<ul class="navbar">
 	
+
 	  <li class="menuparticipa"> <a href="/participa"> Participa </a></li>
 	  <li class="menuaprende"> <a href="/aprende"> Aprende </a></li>
 	  <li> <a href="/comunidad"> Comunidad </a></li>
@@ -44,7 +61,35 @@
 	  <li> <a href="/blog"> Blog </a></li>
 	  <li class="menucontacto"> <a href="/contacto"> ¿Dudas? </a></li>
 	  <li class="calendario"> <a href=""> <img src="/img/calendario.png"> </a></li>
-</ul>
+	</ul>
+
+	
+	  <div class="menu"> Menu </div>
+
+		<div class="menuresponsive">
+		<ul class="navbaresponsive">
+			<li class="menuparticipa"> <a href="/participa"> Participa </a></li>
+			<li class="menuaprende"> <a href="/aprende"> Aprende </a></li>
+			<li> <a href="/comunidad"> Comunidad </a></li>
+			<li> <a href="/proyectos"> Proyectos </a></li>
+			<li> <a href="/blog"> Blog </a></li> -->
+			<li class="menucontacto"> <a href="/contacto"> Contacto </a></li>
+			<!-- <li class="calendario"> <a href=""> <img src="img/calendario.png"> </a></li> -->
+		</ul>
+		<div class="cerrarmenu"> Cerrar </div>
+		</div>
+
+		<script type="text/javascript">
+		$('.menu').click(function(evento) {
+		$('.menuresponsive').fadeIn(500)
+		})
+		</script>
+
+		<script type="text/javascript">
+		$('.cerrarmenu').click(function(evento) {
+		$('.menuresponsive').fadeOut(500)
+		})
+		</script>
 </div>
 
 
@@ -71,7 +116,9 @@
 
 	<h1> Embajadores </h1>
 
-	<p> Et molutet ureperiore nonecta tibusda ecepro quam velessum fuga. Itae et quis ditis eum re nest, voluptio endipid ersped ex exceatque con etur sam quis ipitatem que estiume re pere con consecae vit lacessimus si rem suntum quatias imusani repel in nonsequas aut et volupta aut fugitiantia vidus nulparc hillit qui dolorestiunt volesequatam rem audis molor solenditias velenia que prestio rendita tquasperunt ut ut il incid moluptu rescimo dipsum quia pelenis quas et quunt et arum que atur sinvell upturep udigenis etus. </p> </br>
+	<p> El desarrollo de los proyectos puede requerir de una mentoría o de un asesoramiento en un momento puntual. Los equipos pueden acudir a los embajadores para resolver estos problemas y recibir asesoría sobre cómo inscribirse en la competición.</p>
+
+	<p> Los embajadores son comunidades y profesores de referencia en alguna de las dimensiones que la competición Impaciencia plantea. No dudes en pedirles ayuda para lo que haga falta.</p> </br>
 
 	<div class="cajaembajador">
 
@@ -79,7 +126,7 @@
   <img src="/img/comunidad1.jpg">
   </div>
 
-  <h4> Nombre y Apellidos </h4>
+  <h4> Hacklab Almería </h4>
 
   <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (vamos a probar uno más largo que otro a ver qué pasa) </p>
   </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
@@ -92,7 +139,7 @@
   <img src="/img/comunidad1.jpg">
   </div>
 
-  <h4> Nombre y Apellidos </h4>
+  <h4> MedialabUGR </h4>
 
   <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (más corto) </p>
   </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
@@ -105,7 +152,7 @@
   <img src="/img/comunidad1.jpg">
   </div>
 
-  <h4> Nombre y Apellidos </h4>
+  <h4> Fablab Málaga </h4>
 
   <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (más largo otra vez a ver si se descolocan las columnas) </p>
   </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
@@ -229,15 +276,41 @@
 		<footer>
 	   	<div class="footer">
 			<div class="texto">
-	           © Impaciencia
+			   <p> <span class="cc">c</span> Impaciencia </p>
+
+			   Es un proyecto Atalaya financiado por la Junta de Andalucía, coordinador por la Universidad de Málaga y que cuenta con la participación de la Universidad de Granada, la Universidad de Sevilla, la Universidad de Córdoba, la Universidad de Cádiz y la Universidad de Huelva.
+
+			   <a class="" href="http://www.proyectoicarus.com/"> Esto no es la universidad del mañana </a>
+
+
 			</div>
 
-			<!-- <ul class="rrss">
-	        <li> <a class="" href=""> <img src="img/FB_blanco.png"> </a></li>
-	        <li> <a class="" href=""> <img src="img/IG_blanco.png"> </a></li>
-	        <li> <a class="" href=""> <img src="img/TW_blanco.png"> </a></li>
-	    	</ul> -->
+			<ul class="rrss">
+				<p> Legal </p>
+			<li> <a class="" href=""> Bases </a></li>
+			<li> <a class="" href=""> Términos </a></li>
+			<li> <a class="" href=""> Cookies </a></li>
+			<li> <a class="" href=""> Organización </a></li>
+			</ul>
 
+			<ul class="rrss">
+				<p> Social </p>
+			<li> <a class="" href=""> Twitter </a></li>
+			<li> <a class="" href=""> Facebook </a></li>
+			<li> <a class="" href=""> Github</a></li>
+			<li> <a class="" href=""> Newsletter </a></li>
+			</ul>
+
+			<div class="logos" style="text-align: center;"> <p> Instituciones participantes: </p>
+			<img height="100px"src="/img/logo/andalucia.png">
+			<img height="100px" src="/img/logo/atalaya.jpeg">
+			<img height="100px" src="/img/logo/malagauma.jpg">
+			<img height="100px" src="/img/logo/granadaUGR.jpg">
+			<img height="100px" src="/img/logo/sevillaUS.png">
+			<img height="100px" src="/img/logo/huelvaUHU.jpg">
+			<img height="100px" src="/img/logo/logoUCO.png">
+			<img height="100px" src="/img/logo/cadizUCA.png"></div>
+			</div>
 		</div>
 </footer>
 

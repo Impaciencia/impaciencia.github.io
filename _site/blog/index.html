@@ -18,6 +18,22 @@
 
 <link rel="shortcut icon" type="image/png" href="/img/IMPACIENCIA_favicon.png">
 
+<style type="text/css">
+            @media screen {
+            @font-face {
+            font-family: 'CC-ICONS';
+            font-style: normal;
+            font-weight: normal;
+            src: url('http://mirrors.creativecommons.org/presskit/cc-icons.ttf') format('truetype');
+            }
+
+            span.cc {
+            font-family: 'CC-ICONS';
+            color: white;
+            }
+            }
+        </style>
+
 	<script>
   // Script de google analytics
 </script>
@@ -37,6 +53,7 @@
 	 
 	<ul class="navbar">
 	
+
 	  <li class="menuparticipa"> <a href="/participa"> Participa </a></li>
 	  <li class="menuaprende"> <a href="/aprende"> Aprende </a></li>
 	  <li> <a href="/comunidad"> Comunidad </a></li>
@@ -44,7 +61,35 @@
 	  <li> <a href="/blog"> Blog </a></li>
 	  <li class="menucontacto"> <a href="/contacto"> ¿Dudas? </a></li>
 	  <li class="calendario"> <a href=""> <img src="/img/calendario.png"> </a></li>
-</ul>
+	</ul>
+
+	
+	  <div class="menu"> Menu </div>
+
+		<div class="menuresponsive">
+		<ul class="navbaresponsive">
+			<li class="menuparticipa"> <a href="/participa"> Participa </a></li>
+			<li class="menuaprende"> <a href="/aprende"> Aprende </a></li>
+			<li> <a href="/comunidad"> Comunidad </a></li>
+			<li> <a href="/proyectos"> Proyectos </a></li>
+			<li> <a href="/blog"> Blog </a></li> -->
+			<li class="menucontacto"> <a href="/contacto"> Contacto </a></li>
+			<!-- <li class="calendario"> <a href=""> <img src="img/calendario.png"> </a></li> -->
+		</ul>
+		<div class="cerrarmenu"> Cerrar </div>
+		</div>
+
+		<script type="text/javascript">
+		$('.menu').click(function(evento) {
+		$('.menuresponsive').fadeIn(500)
+		})
+		</script>
+
+		<script type="text/javascript">
+		$('.cerrarmenu').click(function(evento) {
+		$('.menuresponsive').fadeOut(500)
+		})
+		</script>
 </div>
 
 
@@ -60,14 +105,14 @@
 <div class="cajapost">
 
 	<div class="thumbnailpost">
-		<a href="http://localhost:4000/jekyll/update/2017/10/06/test.html"> <img src="http://localhost:4000/img/espasio.jpeg"> </a>
+		<a href="http://localhost:4000/impaciencia/2017/10/06/que-es-impaciencia.html"> <img src="http://localhost:4000/img/impaciencia-pink-vector-circular.png"> </a>
 	</div>
 
 	<div class="datapost">  </div>
-	<a href="http://localhost:4000/jekyll/update/2017/10/06/test.html"> <h1> Impaciencia </h1> </a>
+	<a href="http://localhost:4000/impaciencia/2017/10/06/que-es-impaciencia.html"> <h1> ¿Qué es Impaciencia? </h1> </a>
 
-	<div class="categoria"> Publicado por: <a href=""> Katospiegel </a> </div>
-    <div class="categoria"> Archivado en: jekyllupdate </div>
+	<div class="categoria"> Publicado por: <a href=""> impaciente-001 </a> </div>
+    <div class="categoria"> Archivado en: impaciencia </div>
 
 </div>
 
@@ -91,15 +136,41 @@
 		<footer>
 	   	<div class="footer">
 			<div class="texto">
-	           © Impaciencia
+			   <p> <span class="cc">c</span> Impaciencia </p>
+
+			   Es un proyecto Atalaya financiado por la Junta de Andalucía, coordinador por la Universidad de Málaga y que cuenta con la participación de la Universidad de Granada, la Universidad de Sevilla, la Universidad de Córdoba, la Universidad de Cádiz y la Universidad de Huelva.
+
+			   <a class="" href="http://www.proyectoicarus.com/"> Esto no es la universidad del mañana </a>
+
+
 			</div>
 
-			<!-- <ul class="rrss">
-	        <li> <a class="" href=""> <img src="img/FB_blanco.png"> </a></li>
-	        <li> <a class="" href=""> <img src="img/IG_blanco.png"> </a></li>
-	        <li> <a class="" href=""> <img src="img/TW_blanco.png"> </a></li>
-	    	</ul> -->
+			<ul class="rrss">
+				<p> Legal </p>
+			<li> <a class="" href=""> Bases </a></li>
+			<li> <a class="" href=""> Términos </a></li>
+			<li> <a class="" href=""> Cookies </a></li>
+			<li> <a class="" href=""> Organización </a></li>
+			</ul>
 
+			<ul class="rrss">
+				<p> Social </p>
+			<li> <a class="" href=""> Twitter </a></li>
+			<li> <a class="" href=""> Facebook </a></li>
+			<li> <a class="" href=""> Github</a></li>
+			<li> <a class="" href=""> Newsletter </a></li>
+			</ul>
+
+			<div class="logos" style="text-align: center;"> <p> Instituciones participantes: </p>
+			<img height="100px"src="/img/logo/andalucia.png">
+			<img height="100px" src="/img/logo/atalaya.jpeg">
+			<img height="100px" src="/img/logo/malagauma.jpg">
+			<img height="100px" src="/img/logo/granadaUGR.jpg">
+			<img height="100px" src="/img/logo/sevillaUS.png">
+			<img height="100px" src="/img/logo/huelvaUHU.jpg">
+			<img height="100px" src="/img/logo/logoUCO.png">
+			<img height="100px" src="/img/logo/cadizUCA.png"></div>
+			</div>
 		</div>
 </footer>
 
