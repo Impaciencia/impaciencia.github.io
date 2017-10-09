@@ -1,4 +1,4 @@
-/* 
+/*
 Theme name: Impaciencia
 Author: marinaguadix
 Description: Tema diseñado para Impaciencia
@@ -66,7 +66,7 @@ Description: Tema diseñado para Impaciencia
 }
 
 
-/* Falta el .otf de cada una 
+/* Falta el .otf de cada una
 
 @font-face {
     font-family: 'calling_code_bold';
@@ -154,9 +154,9 @@ p {
     width: 100%;
     position: fixed;
     z-index: 100;
-} 
+}
 
-.logo img { 
+.logo img {
     height: 80vh;
     width: auto;
     float: left;
@@ -185,7 +185,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-right: 12px;
     color: #2c292a;
 }
@@ -248,7 +248,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-right: 12px;
     color: white;
 }
@@ -535,7 +535,7 @@ p {
 #post .categoria {
     width: 80%;
     float: right;
-    clear: both; 
+    clear: both;
 }
 
 .navpost {
@@ -654,6 +654,7 @@ p {
     margin-right: 20px;
     text-align: left;
     float: left;
+	clear: both;
 }
 
 .contenidoaprende .boton a {
@@ -908,7 +909,7 @@ p {
     width: 100%;
     max-width: 100%;
 }
- 
+
 .cajaembajador {
     width: 30%;
     float: left;
@@ -1037,7 +1038,7 @@ p {
     padding: 5px;
     height: 120px;
 }
-    
+
 .contenidocontacto .boton a {
     color: white;
     border-top: solid 1px;
@@ -1056,7 +1057,7 @@ p {
 /********* RESPONSIVE *********/
 
 /* No solo pensar en pantallas más pequeñas, también en grandes... de cara por ejemplo
-a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes 
+a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
 
 @media only screen and (max-width: 1280px) {
 
@@ -1064,7 +1065,7 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
     .wrap {
         max-width: 1140px;
     }
-    
+
 } */
 
 @media screen and (max-width: 1000px) {
@@ -1072,10 +1073,10 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
 /********* RESPONSIVE GENERAL *********/
 
 h1 {
-    
+
     /* position: inherit; */
-    
-} 
+
+}
 
 .navbar {
     display: none;
