@@ -387,8 +387,8 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 250px;
     height: auto;
     position: absolute;
-    right: 200px;
-    bottom: 400px;
+    right: 250px;
+    bottom: 480px;
     background-color: #e80064;
     color: white;
     padding-left: 20px;
@@ -1371,6 +1371,8 @@ h1 {
     margin-left: 10px;
 }
 
+/********* RESPONSIVE HOME *********/
+
 .home {
     width: 100%;
     max-width: 100wh;
@@ -1415,7 +1417,7 @@ h1 {
 
 .texto {
     width: 100%;
-    padding: 40px;
+    padding: 50px;
 }
 
 .footer .texto {
@@ -1430,8 +1432,61 @@ h1 {
 
 
 /********* RESPONSIVE APRENDE *********/
-.cajacurso {
+
+.contenidoaprende {
     width: 100%;
+    padding: 50px;
+}
+
+#cursos {
+    width: 100%;
+    padding: 50px;
+}
+
+#conferencias {
+    width: 100%;
+    padding: 50px;
+}
+
+/********* RESPONSIVE PARTICIPA *********/
+
+.contenidoparticipa {
+    width: 100%;
+    padding: 50px;
+}
+
+.bases {
+    width: 100%;
+    padding: 50px;
+}
+
+/********* RESPONSIVE COMUNIDAD *********/
+
+.contenidocomunidad {
+    width: 100%;
+    padding: 50px;
+}
+
+.embajadores {
+    width: 100%;
+    padding: 50px;
+}
+
+.equipos {
+    width: 100%;
+    padding: 50px;
+}
+
+.creditos {
+    width: 100%;
+    padding: 50px;
+}
+
+/********* RESPONSIVE CONTACTO *********/
+
+.contenidocontacto {
+    width: 100%;
+    padding: 50px;
 }
 
 }
