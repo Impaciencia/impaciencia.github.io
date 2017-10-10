@@ -387,8 +387,8 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 250px;
     height: auto;
     position: absolute;
-    right: 300px;
-    bottom: 550px;
+    right: 250px;
+    bottom: 480px;
     background-color: #e80064;
     color: white;
     padding-left: 20px;
@@ -901,6 +901,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-right: 20px;
     text-align: left;
     float: left;
+    /* clear: both; */
 }
 
 .contenidoparticipa .boton a {
@@ -1360,7 +1361,7 @@ h1 {
 }
 
 
-@media screen and (max-width: 434px) {
+@media screen and (max-width: 770px) {
 
 .logo img {
     width: 110px;
@@ -1370,9 +1371,122 @@ h1 {
     margin-left: 10px;
 }
 
-/********* RESPONSIVE APRENDE *********/
-.cajacurso {
+/********* RESPONSIVE HOME *********/
+
+.home {
     width: 100%;
+    max-width: 100wh;
+    height: auto;
+    background-color: white;
+}
+
+.home h1 {
+    clear: both;
+    float: left;
+}
+
+.postit1 {
+    position: inherit;
+    float: left;
+    clear: both;
+    margin-top: 600px;
+    margin-left: 22px;
+}
+
+.postit2 {
+    position: inherit;
+    float: left;
+    clear: both;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.postit3 {
+    position: inherit;
+    float: left;
+    clear: both;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.scroll img {
+    width: 150px;
+    float: left;
+}
+
+.texto {
+    width: 100%;
+    padding: 50px;
+}
+
+.footer .texto {
+    width: 100%;
+}
+
+.footer .rrss {
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+/********* RESPONSIVE APRENDE *********/
+
+.contenidoaprende {
+    width: 100%;
+    padding: 50px;
+}
+
+#cursos {
+    width: 100%;
+    padding: 50px;
+}
+
+#conferencias {
+    width: 100%;
+    padding: 50px;
+}
+
+/********* RESPONSIVE PARTICIPA *********/
+
+.contenidoparticipa {
+    width: 100%;
+    padding: 50px;
+}
+
+.bases {
+    width: 100%;
+    padding: 50px;
+}
+
+/********* RESPONSIVE COMUNIDAD *********/
+
+.contenidocomunidad {
+    width: 100%;
+    padding: 50px;
+}
+
+.embajadores {
+    width: 100%;
+    padding: 50px;
+}
+
+.equipos {
+    width: 100%;
+    padding: 50px;
+}
+
+.creditos {
+    width: 100%;
+    padding: 50px;
+}
+
+/********* RESPONSIVE CONTACTO *********/
+
+.contenidocontacto {
+    width: 100%;
+    padding: 50px;
 }
 
 }
