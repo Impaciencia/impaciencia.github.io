@@ -1,4 +1,4 @@
-/*
+/* 
 Theme name: Impaciencia
 Author: marinaguadix
 Description: Tema diseñado para Impaciencia
@@ -66,7 +66,7 @@ Description: Tema diseñado para Impaciencia
 }
 
 
-/* Falta el .otf de cada una
+/* Falta el .otf de cada una 
 
 @font-face {
     font-family: 'calling_code_bold';
@@ -154,9 +154,9 @@ p {
     width: 100%;
     position: fixed;
     z-index: 100;
-}
+} 
 
-.logo img {
+.logo img { 
     height: 80vh;
     width: auto;
     float: left;
@@ -185,7 +185,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 10px; 
     margin-right: 12px;
     color: #2c292a;
 }
@@ -248,7 +248,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 10px; 
     margin-right: 12px;
     color: white;
 }
@@ -387,8 +387,8 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 250px;
     height: auto;
     position: absolute;
-    right: 300px;
-    bottom: 550px;
+    right: 200px;
+    bottom: 400px;
     background-color: #e80064;
     color: white;
     padding-left: 20px;
@@ -638,7 +638,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 #post .categoria {
     width: 80%;
     float: right;
-    clear: both;
+    clear: both; 
 }
 
 .navpost {
@@ -901,6 +901,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-right: 20px;
     text-align: left;
     float: left;
+    clear: both;
 }
 
 .contenidoparticipa .boton a {
@@ -979,7 +980,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: auto;
     color: #2c292a;
 }
-
+    
 .bases .enviar {
     width: auto;
     color: #2c292a;
@@ -1057,7 +1058,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 100%;
     max-width: 100%;
 }
-
+ 
 .cajaembajador {
     width: 30%;
     float: left;
@@ -1208,7 +1209,7 @@ input:focus, textarea:focus {
     width: auto;
     color: white;
 }
-
+    
 .enviar {
     width: auto;
     color: white;
@@ -1228,7 +1229,7 @@ input:focus, textarea:focus {
 /********* RESPONSIVE *********/
 
 /* No solo pensar en pantallas más pequeñas, también en grandes... de cara por ejemplo
-a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
+a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes 
 
 @media only screen and (max-width: 1280px) {
 
@@ -1236,7 +1237,7 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
     .wrap {
         max-width: 1140px;
     }
-
+    
 } */
 
 @media screen and (max-width: 1000px) {
@@ -1244,10 +1245,10 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
 /********* RESPONSIVE GENERAL *********/
 
 h1 {
-
+    
     /* position: inherit; */
-
-}
+    
+} 
 
 .navbar {
     display: none;
@@ -1360,15 +1361,73 @@ h1 {
 }
 
 
-@media screen and (max-width: 434px) {
+@media screen and (max-width: 770px) {
 
-.logo img {
+.logo img { 
     width: 110px;
     height: auto;
     float: left;
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.home {
+    width: 100%;
+    max-width: 100wh;
+    height: auto;
+    background-color: white;
+}
+
+.home h1 {
+    clear: both;
+    float: left;
+}
+
+.postit1 {
+    position: inherit;
+    float: left;
+    clear: both;
+    margin-top: 600px;
+    margin-left: 22px;
+}
+
+.postit2 {
+    position: inherit;
+    float: left;
+    clear: both;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.postit3 {
+    position: inherit;
+    float: left;
+    clear: both;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.scroll img {
+    width: 150px;
+    float: left;
+}
+
+.texto {
+    width: 100%;
+    padding: 40px;
+}
+
+.footer .texto {
+    width: 100%;
+}
+
+.footer .rrss {
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
 
 /********* RESPONSIVE APRENDE *********/
 .cajacurso {
