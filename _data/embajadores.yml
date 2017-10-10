@@ -5,3 +5,24 @@
   testimonial: "Para lo que queráis"
   image: img/embajadores/hla-logo.jpg
   contact: "info@hla.org"
+- name: "MedialabUGR"
+  ciudad: Granada
+  short-bio: "Grupo Maker Almería"
+  web: http://www.hacklabalmeria.org
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/hla-logo.jpg
+  contact: "info@hla.org"
+- name: "Miguel Ángel Medina"
+  ciudad: Málaga
+  short-bio: "Grupo Maker Almería"
+  web: http://www.hacklabalmeria.org
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/hla-logo.jpg
+  contact: "info@hla.org"
+- name: "Antonio J. Matas"
+  ciudad: Málaga
+  short-bio: "Grupo Maker Almería"
+  web: http://www.hacklabalmeria.org
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/hla-logo.jpg
+  contact: "info@hla.org"
