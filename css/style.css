@@ -90,6 +90,10 @@ Description: Tema diseñado para Impaciencia
 
 */
 
+li {
+	margin-bottom: 14px;
+}
+
 body {
     width: 100%;
     margin: 0px;
@@ -388,7 +392,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     height: auto;
     position: absolute;
     right: 250px;
-    bottom: 480px;
+    bottom: 520px;
     background-color: #e80064;
     color: white;
     padding-left: 20px;
