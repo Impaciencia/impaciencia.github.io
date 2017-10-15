@@ -90,6 +90,22 @@ permalink: /comunidad/
 
 </div>
 
+{% for embajador in site.data.embajadores %}
+<div class="cajaembajador">
+
+<div class="thumbnailembajador">
+<img src="{{ site.baseurl }}/{{ embajador.image }}">
+</div>
+
+<h4> {{ embajador.name }} </h4>
+
+<div class="categoria"> <p> {{ embajador.description }} </p>
+</br> Info de contacto: <a href="mailto:{{ embajador.contact }}"> {{ embajador.correo }} </a> / <a href="{{ embajador.twitter }}"> Twitter </a> / <a href="{{ embajador.correo }}"> Facebook </a> </div>
+
+</div>
+
+{% endfor %}
+
 </div>
 
 
@@ -142,6 +158,23 @@ permalink: /comunidad/
 	<div class="categoria"> </br> Info de contacto: <a href=""> Web </a> / <a href=""> Github </a> </div>
 
 	</div>
+
+	{% for equipo in site.data.equipos %}
+	<div class="cajaequipo">
+
+	<div class="thumbnailequipo">
+	<img src="{{ site.baseurl }}/{{ embajador.image }}">
+	</div>
+
+	<h4> {{ equipo.name }} </h4>
+
+	<p> {{ equipo.description }} </p>
+	<div class="categoria">
+	</br> Info de contacto: <a href="{{ equipo.web }}"> Web </a> / <a href="{{ equipo.github }}"> Github </a> </div>
+
+	</div>
+
+	{% endfor %}
 
 </div>
 

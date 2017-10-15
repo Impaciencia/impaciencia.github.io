@@ -1440,6 +1440,7 @@ h1 {
 .contenidoaprende {
     width: 100%;
     padding: 50px;
+	display: grid;
 }
 
 #cursos {
@@ -1457,6 +1458,7 @@ h1 {
 .contenidoparticipa {
     width: 100%;
     padding: 50px;
+	display: grid;
 }
 
 .bases {
