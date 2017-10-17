@@ -13,11 +13,16 @@ permalink: /blog/
 		<a href="{{ post.url | absolute_url }}"> <img src="{{ post.thumbnail | absolute_url }}"> </a>
 	</div>
 
-	<div class="datapost"> {{ page.date | date: "%B.%-d.%Y" }} </div>
+	<div class="datapost"> {{ page.date | date: "%d.%m.%Y" }} </div>
 	<a href="{{ post.url | absolute_url }}"> <h1> {{ post.title }} </h1> </a>
 
 	<div class="categoria"> Publicado por: <a href=""> {{ post.author }} </a> </div>
-    <div class="categoria"> Archivado en: {{ post.categories }} </div>
+    <div class="categoria"> Archivado en:
+		{% for category in page.categories %}
+			  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+			  {% unless forloop.last %}&nbsp;{% endunless %}
+			  {% endfor %}
+ 	</div>
 
 </div>
 

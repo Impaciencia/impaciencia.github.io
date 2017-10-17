@@ -1,0 +1,26 @@
+---
+layout: page
+title: Calendario
+permalink: /calendario/
+---
+
+
+<div id="calendario">
+
+{{% for event in site.data.calendario %}}
+
+<div class="cajacalendario">
+
+	<div class="numerocalendario">
+		{{ event.date | date: "%d" }}
+</div>
+
+	<h4> {{ event.date | date: "%-m, $Y" }} </h4>
+  <p> {{ event.description }} </br> </br> Ponentes>>>> {{ event.people }} </br>  Hora>>>> {{ event.date | date: "%H"}} </br>  Lugar>>>> {{ event.place }} </p> </br>
+	<div class="categoria"> <a href="{{event.contactlink}}"> {{ event.contact }} </a> </div>
+
+</div>
+
+{{% endfor %}}
+
+</div>

@@ -1,4 +1,4 @@
-/* 
+/*
 Theme name: Impaciencia
 Author: marinaguadix
 Description: Tema diseñado para Impaciencia
@@ -66,7 +66,7 @@ Description: Tema diseñado para Impaciencia
 }
 
 
-/* Falta el .otf de cada una 
+/* Falta el .otf de cada una
 
 @font-face {
     font-family: 'calling_code_bold';
@@ -89,6 +89,10 @@ Description: Tema diseñado para Impaciencia
 }
 
 */
+
+li {
+	margin-bottom: 14px;
+}
 
 body {
     width: 100%;
@@ -154,9 +158,9 @@ p {
     width: 100%;
     position: fixed;
     z-index: 100;
-} 
+}
 
-.logo img { 
+.logo img {
     height: 80vh;
     width: auto;
     float: left;
@@ -185,7 +189,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-right: 12px;
     color: #2c292a;
 }
@@ -248,7 +252,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-right: 12px;
     color: white;
 }
@@ -388,7 +392,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     height: auto;
     position: absolute;
     right: 250px;
-    bottom: 480px;
+    bottom: 520px;
     background-color: #e80064;
     color: white;
     padding-left: 20px;
@@ -613,7 +617,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 80%;
     float: right;
     clear: both;
-    text-align: left;
+    text-align: justify;
     margin: 0;
     margin-top: 15px;
     margin-bottom: 35px;
@@ -638,7 +642,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 #post .categoria {
     width: 80%;
     float: right;
-    clear: both; 
+    clear: both;
 }
 
 .navpost {
@@ -901,7 +905,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-right: 20px;
     text-align: left;
     float: left;
-    clear: both;
+    /* clear: both; */
 }
 
 .contenidoparticipa .boton a {
@@ -965,23 +969,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-bottom: 10px;
 }
 
-.bases textarea {
-    color: #2c292a;
-    background-color: white;
-    border-top: solid 1px #2c292a;
-    border-bottom: solid 1px #2c292a;
-    border-left: solid 1px #2c292a;
-    border-right: solid 1px #2c292a;
-    padding: 5px;
-    height: auto;
-    font-family: 'calling_code_regular';
-    font-size: 16px;
-    line-height: 22px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.bases input:focus, .bases textarea:focus {
+.bases input:focus, textarea:focus {
     border: solid 1px #2c292a;
     outline: 0;
 }
@@ -996,7 +984,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: auto;
     color: #2c292a;
 }
-    
+
 .bases .enviar {
     width: auto;
     color: #2c292a;
@@ -1074,7 +1062,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 100%;
     max-width: 100%;
 }
- 
+
 .cajaembajador {
     width: 30%;
     float: left;
@@ -1210,22 +1198,6 @@ input {
     margin-bottom: 10px;
 }
 
-textarea {
-    background-color: #2c292a;
-    color: white;
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
-    border-left: solid 1px white;
-    border-right: solid 1px white;
-    padding: 5px;
-    height: auto;
-    font-family: 'calling_code_regular';
-    font-size: 16px;
-    line-height: 22px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
 input:focus, textarea:focus {
     border: solid 1px white;
     outline: 0;
@@ -1241,7 +1213,7 @@ input:focus, textarea:focus {
     width: auto;
     color: white;
 }
-    
+
 .enviar {
     width: auto;
     color: white;
@@ -1261,7 +1233,7 @@ input:focus, textarea:focus {
 /********* RESPONSIVE *********/
 
 /* No solo pensar en pantallas más pequeñas, también en grandes... de cara por ejemplo
-a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes 
+a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
 
 @media only screen and (max-width: 1280px) {
 
@@ -1269,7 +1241,7 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
     .wrap {
         max-width: 1140px;
     }
-    
+
 } */
 
 @media screen and (max-width: 1000px) {
@@ -1277,10 +1249,10 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
 /********* RESPONSIVE GENERAL *********/
 
 h1 {
-    
+
     /* position: inherit; */
-    
-} 
+
+}
 
 .navbar {
     display: none;
@@ -1385,15 +1357,7 @@ h1 {
 
 
 /********* RESPONSIVE APRENDE *********/
-
 .cajacurso {
-    width: 47%;
-}
-
-
-/********* RESPONSIVE COMUNIDAD *********/
-
-.cajaembajador {
     width: 47%;
 }
 
@@ -1403,14 +1367,13 @@ h1 {
 
 @media screen and (max-width: 770px) {
 
-.logo img { 
+.logo img {
     width: 110px;
     height: auto;
     float: left;
     margin-top: 10px;
     margin-left: 10px;
 }
-
 
 /********* RESPONSIVE HOME *********/
 
@@ -1477,6 +1440,7 @@ h1 {
 .contenidoaprende {
     width: 100%;
     padding: 50px;
+	display: grid;
 }
 
 #cursos {
@@ -1489,23 +1453,18 @@ h1 {
     padding: 50px;
 }
 
-.cajacurso {
-    width: 100%;
-}
-
-
 /********* RESPONSIVE PARTICIPA *********/
 
 .contenidoparticipa {
     width: 100%;
     padding: 50px;
+	display: grid;
 }
 
 .bases {
     width: 100%;
     padding: 50px;
 }
-
 
 /********* RESPONSIVE COMUNIDAD *********/
 
@@ -1529,178 +1488,11 @@ h1 {
     padding: 50px;
 }
 
-.cajaembajador {
-    width: 100%;
-}
-
-.thumbnailequipo {
-    width: 100%;
-    float: left;
-    margin-top: 20px;
-}
-
-.cajaequipo p {
-    width: 100%;
-    float: right;
-    padding-left: 0px;
-}
-
-.cajaequipo .categoria {
-    width: 100%;
-    float: right;
-    font-size: 14px;
-    padding-left: 0px;
-    clear: none;
-}
-
-
 /********* RESPONSIVE CONTACTO *********/
 
 .contenidocontacto {
     width: 100%;
     padding: 50px;
-}
-
-
-/********* RESPONSIVE BLOG *********/
-
-#cajablog {
-    width: 100%;
-    padding: 50px;
-}
-
-.cajapost {
-    margin-bottom: 50px;
-}
-
-.thumbnailpost {
-    background-color: #284dd6;
-    width: 40%;
-    clear: both;
-    float: none;
-    margin-top: 60px;
-}
-
-.thumbnailpost img:hover {
-    opacity: 0.1;
-}
-
-.cajapost .datapost {
-    clear: inherit;
-    padding-left: 0px;
-    width: 100%;
-    margin-top: 30px;
-}
-
-.cajapost h1 {
-    width: 100%;
-    float: right;
-    padding-left: 0px;
-}
-
-.cajapost .categoria {
-    width: 100%;
-    float: right;
-    font-size: 14px;
-    padding-left: 0px;
-    clear: none;
-}
-
-.masposts {
-    clear: both;
-    text-align: center;
-}
-
-
-/********* RESPONSIVE POST *********/
-
-#post {
-    width: 100%;
-    padding: 50px;
-    padding-top: 120px;
-    padding-bottom: 80px;
-}
-
-}
-
-
-@media screen and (max-width: 500px) {
-
-/********* RESPONSIVE POST *********/
-
-#post {
-    padding-top: 250px;
-    padding-bottom: 80px;
-}
-
-#post h1 {
-    width: 100%;
-    float: right;
-    clear: both;
-}
-
-#post img {
-    width: 100%;
-    float: left;
-    max-width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#post p {
-    width: 100%;
-    float: right;
-    clear: both;
-    text-align: left;
-    margin: 0;
-    margin-top: 15px;
-    margin-bottom: 35px;
-}
-
-.datapost {
-    width: 100%;
-    float: right;
-    clear: both;
-    font-size: 14px;
-}
-
-.piefoto {
-    width: 100%;
-    float: left;
-    clear: both;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#post .categoria {
-    width: 100%;
-    float: right;
-    clear: both; 
-}
-
-.navpost {
-    font-size: 14px;
-    width: 100%;
-    float: right;
-    clear: both;
-    margin-top: 35px;
-    margin-bottom: 80px;
-}
-
-.navpost a {
-    color: #2c292a;
-}
-
-.anterior {
-    width: 100%;
-    float: left;
-    clear: both;
-}
-
-.siguiente {
-    width: 100%;
-    float: left;
 }
 
 }
