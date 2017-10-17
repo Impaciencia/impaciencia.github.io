@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es Markdown?
-date: 2017-11-08 21:55:53 Z
+date: 2017-11-20 21:55:53 Z
 author: "impaciente-001"
 categories:
 - herramientas
