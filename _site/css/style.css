@@ -1,4 +1,4 @@
-/* 
+/*
 Theme name: Impaciencia
 Author: marinaguadix
 Description: Tema diseñado para Impaciencia
@@ -66,7 +66,7 @@ Description: Tema diseñado para Impaciencia
 }
 
 
-/* Falta el .otf de cada una 
+/* Falta el .otf de cada una
 
 @font-face {
     font-family: 'calling_code_bold';
@@ -129,6 +129,10 @@ p {
     text-align: left;
 }
 
+li { /* metido por kato */
+	margin-bottom: 14px;
+}
+
 .boton a {
     color: white;
     border-top: solid 1px;
@@ -154,9 +158,9 @@ p {
     width: 100%;
     position: fixed;
     z-index: 100;
-} 
+}
 
-.logo img { 
+.logo img {
     height: 80vh;
     width: auto;
     float: left;
@@ -185,7 +189,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-right: 12px;
     color: #2c292a;
 }
@@ -248,7 +252,7 @@ p {
     font-family: 'calling_code_regular';
     font-weight: 800;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-right: 12px;
     color: white;
 }
@@ -387,8 +391,8 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 250px;
     height: auto;
     position: absolute;
-    right: 250px;
-    bottom: 480px;
+    right: 400px;
+    top: 80px;
     background-color: #e80064;
     color: white;
     padding-left: 20px;
@@ -404,7 +408,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     height: auto;
     position: absolute;
     right: 600px;
-    bottom: 300px;
+    bottom: 250px;
     background-color: #1d9e28;
     color: white;
     padding-left: 20px;
@@ -481,10 +485,32 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     padding-bottom: 100px;
 }
 
-.cajaproyecto {
+.cajaproyecto1 {
     width: 50%;
     float: left;
+    padding-left: 0px;
     padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.cajaproyecto2 {
+    width: 50%;
+    float: left;
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.cajaproyecto3 {
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-left: 80px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
 }
 
 .thumbnailproyecto {
@@ -513,10 +539,86 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     color: #284dd6;
 }
 
+#cajaproyectos .categoria {
+    /* -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg); */
+}
+
 .masproyectos {
     clear: both;
     text-align: center;
     padding-top: 40px;
+}
+
+
+/********* FICHA PROYECTO *********/
+
+#fichaproyecto {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+#fichaproyecto h1 {
+    width: 100%;
+    float: left;
+    padding-right: 0px;
+}
+
+#fichaproyecto img {
+    width: 100%;
+    float: left;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+#fichaproyecto p {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-right: 0px;
+}
+
+#fichaproyecto .piefoto {
+    width: 100%;
+    float: right;
+    clear: both;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#fichaproyecto .categoria {
+    width: 30%;
+    float: right;
+    margin-top: 22px;
+}
+
+#fichaproyecto .navpost {
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.navpost a {
+    color: #2c292a;
+}
+
+.anterior {
+    float: left;
+}
+
+.siguiente {
+    float: right;
 }
 
 
@@ -638,7 +740,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 #post .categoria {
     width: 80%;
     float: right;
-    clear: both; 
+    clear: both;
 }
 
 .navpost {
@@ -663,71 +765,51 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 }
 
 
-/********* FICHA PROYECTO *********/
+/********* CALENDARIO *********/
 
-#fichaproyecto {
+#calendario {
     width: 60%;
     margin: 0 auto;
     padding-top: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
-#fichaproyecto h1 {
-    width: 80%;
-    float: left;
-    clear: both;
-}
-
-#fichaproyecto img {
-    width: 80%;
-    float: left;
-    max-width: 100%;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-#fichaproyecto p {
-    width: 80%;
-    float: left;
-    clear: both;
-    text-align: justify;
-    margin: 0;
-    margin-top: 15px;
-    margin-bottom: 35px;
-}
-
-#fichaproyecto .piefoto {
+.cajacalendario {
     width: 100%;
-    float: right;
-    clear: both;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-#fichaproyecto .categoria {
-    width: 20%;
-    float: right;
-}
-
-#fichaproyecto .navpost {
-    font-size: 14px;
-    width: 80%;
     float: left;
-    clear: both;
-    margin-top: 35px;
     margin-bottom: 80px;
+    border-top: 1px solid;
+    padding-top: 30px;
 }
 
-.navpost a {
-    color: #2c292a;
-}
-
-.anterior {
+.numerocalendario {
     float: left;
+    font-size: 140px;
+    margin-top: 45px;
+    font-weight: 800;
+    height: auto;
 }
 
-.siguiente {
-    float: right;
+.cajacalendario h4 {
+    float: left;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.cajacalendario p {
+    float: left;
+    padding-left: 186px;
+    margin-top: -20px;
+}
+
+.cajacalendario .categoria {
+    float: left;
+    padding-left: 186px;
+}
+
+.masposts {
+    clear: both;
+    text-align: center;
 }
 
 
@@ -847,11 +929,16 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 #conferencias {
     width: 60%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 100px;
     background-color: white;
     color: #1d9e28;
     clear: both;
+}
+
+#conferencias h1 {
+    clear: both;
+    margin-top: 100px;
 }
 
 #conferencias p {
@@ -901,7 +988,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-right: 20px;
     text-align: left;
     float: left;
-    clear: both;
+    /* clear: both; */
 }
 
 .contenidoparticipa .boton a {
@@ -996,7 +1083,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: auto;
     color: #2c292a;
 }
-    
+
 .bases .enviar {
     width: auto;
     color: #2c292a;
@@ -1074,7 +1161,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 100%;
     max-width: 100%;
 }
- 
+
 .cajaembajador {
     width: 30%;
     float: left;
@@ -1241,7 +1328,7 @@ input:focus, textarea:focus {
     width: auto;
     color: white;
 }
-    
+
 .enviar {
     width: auto;
     color: white;
@@ -1261,7 +1348,7 @@ input:focus, textarea:focus {
 /********* RESPONSIVE *********/
 
 /* No solo pensar en pantallas más pequeñas, también en grandes... de cara por ejemplo
-a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes 
+a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
 
 @media only screen and (max-width: 1280px) {
 
@@ -1269,7 +1356,7 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
     .wrap {
         max-width: 1140px;
     }
-    
+
 } */
 
 @media screen and (max-width: 1000px) {
@@ -1277,10 +1364,10 @@ a Embajadores meter 4 en vez de 3 columnas en pantallas más grandes
 /********* RESPONSIVE GENERAL *********/
 
 h1 {
-    
+
     /* position: inherit; */
-    
-} 
+
+}
 
 .navbar {
     display: none;
@@ -1403,7 +1490,7 @@ h1 {
 
 @media screen and (max-width: 770px) {
 
-.logo img { 
+.logo img {
     width: 110px;
     height: auto;
     float: left;
@@ -1499,6 +1586,7 @@ h1 {
 .contenidoparticipa {
     width: 100%;
     padding: 50px;
+	display: grid;
 }
 
 .bases {
@@ -1562,6 +1650,30 @@ h1 {
 }
 
 
+/********* RESPONSIVE PROYECTOS *********/
+
+#cajaproyectos {
+    width: 100%;
+    padding: 50px;
+}
+
+
+/********* RESPONSIVE FICHA PROYECTO *********/
+
+#fichaproyecto {
+    width: 100%;
+    padding: 50px;
+    padding-top: 150px;
+}
+
+#fichaproyecto .categoria {
+    width: 80%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
 /********* RESPONSIVE BLOG *********/
 
 #cajablog {
@@ -1621,10 +1733,85 @@ h1 {
     padding-bottom: 80px;
 }
 
+
+/********* RESPONSIVE CALENDARIO *********/
+
+#calendario {
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+.cajacalendario {
+    width: 100%;
+    float: left;
+    margin-bottom: 80px;
+    border-top: 1px solid;
+    padding-top: 30px;
+}
+
+.numerocalendario {
+    float: left;
+    font-size: 140px;
+    margin-top: 45px;
+    font-weight: 800;
+    height: auto;
+}
+
+.cajacalendario h4 {
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 65px;
+}
+
+.cajacalendario p {
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 8px;
+}
+
+.cajacalendario .categoria {
+    padding-left: 0px;
+}
+
 }
 
 
 @media screen and (max-width: 500px) {
+
+
+/********* RESPONSIVE PROYECTOS *********/
+
+.cajaproyecto1 {
+    width: 80%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 00px;
+    padding-bottom: 80px;
+}
+
+.cajaproyecto2 {
+    width: 80%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.cajaproyecto3 {
+    width: 80%;
+    float: left;
+    clear: both;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
 
 /********* RESPONSIVE POST *********/
 
@@ -1676,7 +1863,7 @@ h1 {
 #post .categoria {
     width: 100%;
     float: right;
-    clear: both; 
+    clear: both;
 }
 
 .navpost {

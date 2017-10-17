@@ -13,11 +13,12 @@ permalink: /calendario/
 
 	<div class="numerocalendario">
 		{{ event.date | date: "%d" }}
-</div>
+	</div>
 
 	<h4> {{ event.date | date: "%B, %Y" }} </h4>
-  <p> {{ event.description }} </br> </br> Ponentes>>>> {{ event.people }} </br>  Hora>>>> {{ event.date | date: "%H"}} </br>  Lugar>>>> {{ event.place }} </p> </br>
-	<div class="categoria"> <a href="{{event.contactlink}}"> {{ event.contact }} </a> </div>
+
+  	<p> {{ event.description }} </br> </br> Ponentes>>>> {{ event.people }} </br>  Hora>>>> {{ event.date | date: "%H"}} </br>  Lugar>>>> {{ event.place }} </p> </br>
+	<div class="categoria"> <a href="{{ event.contactlink }}"> {{ event.contact }} </a> </div>
 
 </div>
 
