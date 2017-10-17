@@ -7,8 +7,6 @@ permalink: /calendario/
 
 <div id="calendario">
 
-	<p> Próximamente </p>
-
 {% for event in site.data.calendario %}
 
 <div class="cajacalendario">
@@ -17,7 +15,7 @@ permalink: /calendario/
 		{{ event.date | date: "%d" }}
 </div>
 
-	<h4> {{ event.date | date: "%-m, $Y" }} </h4>
+	<h4> {{ event.date | date: "%B, %Y" }} </h4>
   <p> {{ event.description }} </br> </br> Ponentes>>>> {{ event.people }} </br>  Hora>>>> {{ event.date | date: "%H"}} </br>  Lugar>>>> {{ event.place }} </p> </br>
 	<div class="categoria"> <a href="{{event.contactlink}}"> {{ event.contact }} </a> </div>
 
