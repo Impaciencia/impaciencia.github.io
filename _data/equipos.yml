@@ -1,0 +1,15 @@
+- name: "Recicled Society Project"
+  estudios: "Biología (UMA), Ing. Software (UMA), Periodismo (UMA)"
+  short-bio: Nuestro proyecto es una investigación sobre un problema social actual que se intentara remediar con herramientas informaticas
+  image: img/equipos/sin.jpg
+  contacts:
+      - name: Github (Próximamente)
+        link:
+
+- name: "Este podría ser tú equipo ¿A qué esperas?"
+  estudios: "No hay límites, cualquier carrera vale"
+  short-bio: Podéis investigar sobre lo que queráis, cualquier tema es válido.
+  image: img/espacio-06.jpg
+  contacts:
+      - name: Participa
+        link: "http://www.impaciencia.org/participa"

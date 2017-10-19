@@ -4,7 +4,7 @@ title: Comunidad
 permalink: /comunidad/
 ---
 
-<div class="embajadores">
+<div class="embajadores" id="embajadores">
 
 	<h1> Embajadores </h1>
 
@@ -12,174 +12,97 @@ permalink: /comunidad/
 
 	<p> Los embajadores son comunidades y profesores de referencia en alguna de las dimensiones que la competición Impaciencia plantea. No dudes en pedirles ayuda para lo que haga falta.</p> </br>
 
+{% for embajador in site.data.embajadores %}
+
 	<div class="cajaembajador">
 
-  <div class="thumbnailembajador">
-  <img src="{{ site.baseurl }}/img/comunidad1.jpg">
-  </div>
+	  <div class="thumbnailembajador">
+	  <img src="{{ site.baseurl }}/{{ embajador.image }}">
+	  </div>
 
-  <h4> Hacklab Almería </h4>
+	  <h4> {{ embajador.name }} </h4>
 
-  <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (vamos a probar uno más largo que otro a ver qué pasa) </p>
-  </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
+	  <div class="categoria"> <p> {{ embajador.short-bio }} </p> </br> Info de contacto:
 
-</div>
+	  {% for contact in embajador.contacts %}
 
-<div class="cajaembajador">
+	  <a href="{{ contact.link }}"> {{ contact.name }} </a> /
 
-  <div class="thumbnailembajador">
-  <img src="{{ site.baseurl }}/img/comunidad1.jpg">
-  </div>
+	  {% endfor %}
 
-  <h4> MedialabUGR </h4>
+   	  </div>
 
-  <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (más corto) </p>
-  </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
-
-</div>
-
-<div class="cajaembajador">
-
-  <div class="thumbnailembajador">
-  <img src="{{ site.baseurl }}/img/comunidad1.jpg">
-  </div>
-
-  <h4> Fablab Málaga </h4>
-
-  <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (más largo otra vez a ver si se descolocan las columnas) </p>
-  </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
-
-</div>
-
-<div class="cajaembajador">
-
-  <div class="thumbnailembajador">
-  <img src="{{ site.baseurl }}/img/comunidad1.jpg">
-  </div>
-
-  <h4> Nombre y Apellidos </h4>
-
-  <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (vamos a probar uno más largo que otro a ver qué pasa) </p>
-  </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
-
-</div>
-
-<div class="cajaembajador">
-
-  <div class="thumbnailembajador">
-  <img src="{{ site.baseurl }}/img/comunidad1.jpg">
-  </div>
-
-  <h4> Nombre y Apellidos </h4>
-
-  <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (más corto) </p>
-  </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
-
-</div>
-
-<div class="cajaembajador">
-
-  <div class="thumbnailembajador">
-  <img src="{{ site.baseurl }}/img/comunidad1.jpg">
-  </div>
-
-  <h4> Nombre y Apellidos </h4>
-
-  <div class="categoria"> <p> Empezar con ocupación y universidad, y luego pequeña bio para que los alumnos sepan qué tipo de cuestiones pueden consultar, pero no extenderse mucho, como un tuit de 140 caracteres (más largo otra vez a ver si se descolocan las columnas) </p>
-  </br> Info de contacto: <a href=""> Correo </a> / <a href=""> Twitter </a> / <a href=""> LinkedIn </a> </div>
-
-</div>
-
-{% for embajador in site.data.embajadores %}
-<div class="cajaembajador">
-
-<div class="thumbnailembajador">
-<img src="{{ site.baseurl }}/{{ embajador.image }}">
-</div>
-
-<h4> {{ embajador.name }} </h4>
-
-<div class="categoria"> <p> {{ embajador.description }} </p>
-</br> Info de contacto: <a href="mailto:{{ embajador.contact }}"> {{ embajador.correo }} </a> / <a href="{{ embajador.twitter }}"> Twitter </a> / <a href="{{ embajador.correo }}"> Facebook </a> </div>
-
-</div>
+	</div>
 
 {% endfor %}
 
 </div>
 
-
-<div class="equipos">
+<div class="equipos" id="equipos">
 
 	<h1> Equipos </h1>
 
-	<p> Et molutet ureperiore nonecta tibusda ecepro quam velessum fuga. Itae et quis ditis eum re nest, voluptio endipid ersped ex exceatque con etur sam quis ipitatem que estiume re pere con consecae vit lacessimus si rem suntum quatias imusani repel in nonsequas aut et volupta aut fugitiantia vidus nulparc hillit qui dolorestiunt volesequatam rem audis molor solenditias. </p>
-
-
-	<div class="cajaequipo">
-
-	<h4> Equipo 1 </h4>
-
-	<div class="thumbnailequipo">
-	<img src="{{ site.baseurl }}/img/comunidad1.jpg">
-	</div>
-
-	<p> Et molutet ureperiore nonecta tibusda ecepro quam velessum fuga. Itae et quis ditis eum re nest, voluptio endipid ersped ex exceatque con etur sam quis ipitatem que estiume re  vidus nulparc hillit qui dolorestiunt volesequatam rem audis molor solenditias. </p>
-
-	<div class="categoria"> </br> Info de contacto: <a href=""> Web </a> / <a href=""> Github </a> </div>
-
-	</div>
-
-
-	<div class="cajaequipo">
-
-	<h4> Equipo 2 </h4>
-
-	<div class="thumbnailequipo">
-	<img src="{{ site.baseurl }}/img/comunidad1.jpg">
-	</div>
-
-	<p> Et molutet ureperiore nonecta tibusda ecepro quam velessum fuga. Itae et quis ditis eum re nest, voluptio endipid ersped ex exceatque con etur sam quis ipitatem que estiume re  vidus nulparc hillit qui dolorestiunt volesequatam rem audis molor solenditias. </p>
-
-	<div class="categoria"> </br> Info de contacto: <a href=""> Web </a> / <a href=""> Github </a> </div>
-
-	</div>
-
-	<div class="cajaequipo">
-
-	<h4> Equipo 3 </h4>
-
-	<div class="thumbnailequipo">
-	<img src="{{ site.baseurl }}/img/comunidad1.jpg">
-	</div>
-
-	<p> Et molutet ureperiore nonecta tibusda ecepro quam velessum fuga. Itae et quis ditis eum re nest, voluptio endipid ersped ex exceatque con etur sam quis ipitatem que estiume re  vidus nulparc hillit qui dolorestiunt volesequatam rem audis molor solenditias. </p>
-
-	<div class="categoria"> </br> Info de contacto: <a href=""> Web </a> / <a href=""> Github </a> </div>
-
-	</div>
+	<p> Los equipazos de valientes que están inscritos en el concurso. Recuerda, tu equipo puede estar aquí </p>
 
 	{% for equipo in site.data.equipos %}
 	<div class="cajaequipo">
 
-	<div class="thumbnailequipo">
-	<img src="{{ site.baseurl }}/{{ embajador.image }}">
-	</div>
-
 	<h4> {{ equipo.name }} </h4>
 
-	<p> {{ equipo.description }} </p>
-	<div class="categoria">
-	</br> Info de contacto: <a href="{{ equipo.web }}"> Web </a> / <a href="{{ equipo.github }}"> Github </a> </div>
-
+	<div class="thumbnailequipo">
+		<img src="{{ site.baseurl }}/{{ equipo.image }}">
 	</div>
 
+	<p> {{ equipo.estudios }} </p>
+	<p> {{ equipo.short-bio }} </p>
+	<div class="categoria">
+	</br> Info de contacto:
+
+	{% for contact in equipo.contacts %}
+
+	<a href="{{ contact.link }}"> {{ contact.name }} </a> /
+
+	{% endfor %}
+
+    </div>
+
+	</div>
 	{% endfor %}
 
 </div>
 
-<div class="creditos">
-	<h1> Créditos </h1>
+<div class="creditos" id="organizacion">
+	<h1> Organización </h1>
 
-	<p> Et molutet ureperiore nonecta tibusda ecepro quam velessum fuga. Itae et quis ditis eum re nest, voluptio endipid ersped ex exceatque con etur sam quis ipitatem que estiume re pere con consecae  solenditias. </p>
+	<p> Los soñadores detrás de este proyecto: </p>
+
+	<div class="cargos">
+		Carlos Vivar Ríos (Kato) //// Idea original y Coordinación </br>
+		Jenniffer Seguel Berrios //// Coordinación </br>
+		Curro Romero //// Community management </br>
+		Luigi (Nohappyendings Films) //// Realización audiovisual </br>
+		Benito Sánchez //// Apoyo Community management
+	</div>
+
+	<div class="cargos2">
+		Marina Guadix //// Diseño gráfico </br>
+		Daniel Casares //// Curso Open Hardware </br>
+		José Serrano //// Curso Diseños Experimentales </br>
+		Vicerrectorado de Cultura y Deportes UMA //// Entidad promotora </br>
+		La Internet //// Red superchula, fuente de inspiración.
+	</div>
+
+	<div class="thumbnailcreditos">
+	<img src="img/comunidad1.jpg">
+	<img src="img/comunidad2.jpg">
+	<img src="img/comunidad3.jpg">
+	<img src="img/comunidad1.jpg">
+	<img src="img/comunidad1.jpg">
+	<img src="img/comunidad1.jpg">
+	<img src="img/comunidad1.jpg">
+	<img src="img/Fotocarnet_byn.jpg">
+	<img src="img/Fotocarnet_byn.jpg">
+	<img src="img/Fotocarnet_byn.jpg">
+	</div>
+
 </div>

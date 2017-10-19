@@ -1265,6 +1265,34 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     border-top: dashed 1px;
 }
 
+.cargos {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    font-size: 14px;
+    /* -webkit-columns: 2;
+    -moz-columns: 2;
+    -o-columns: 2;
+    columns: 2; */
+}
+
+.cargos2 {
+     width: 50%;
+     float: left;
+     margin-top: 20px;
+     font-size: 14px;
+}
+
+.thumbnailcreditos {
+    width: 100%;
+    clear: both;
+    padding-top: 40px;
+}
+
+.creditos img {
+    width: 9%;
+}
+
 
 /********* CONTACTO *********/
 
@@ -1639,6 +1667,26 @@ h1 {
     font-size: 14px;
     padding-left: 0px;
     clear: none;
+}
+
+.cargos {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cargos2 {
+     width: 100%;
+     margin-top: 0px;
+}
+
+.thumbnailcreditos {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.creditos img {
+    width: 16%;
+    margin-top: 2px;
 }
 
 

@@ -1,28 +1,149 @@
-- name: "Hacklab Almería"
-  ciudad: Almería
-  short-bio: "Grupo Maker Almería"
-  web: http://www.hacklabalmeria.org
-  description: "Para lo que queráis"
-  image: img/comunidad1.jpg
-  contact: "info@hla.org"
-- name: "MedialabUGR"
-  ciudad: Granada
-  short-bio: "Grupo Maker Almería"
-  web: http://www.hacklabalmeria.org
-  testimonial: "Para lo que queráis"
-  image: img/comunidad1.jpg
-  contact: "info@hla.org"
-- name: "Miguel Ángel Medina"
-  ciudad: Málaga
-  short-bio: "Grupo Maker Almería"
-  web: http://www.hacklabalmeria.org
-  testimonial: "Para lo que queráis"
-  image: img/comunidad1.jpg
-  contact: "info@hla.org"
 - name: "Antonio J. Matas"
   ciudad: Málaga
-  short-bio: "Grupo Maker Almería"
-  web: http://www.hacklabalmeria.org
+  short-bio: "Profesor Ayudante Doctor del departamento de Biología Vegetal de la UMA. Es un experto en R y en el uso de Arduino/Raspberry Pi como recurso en la investigación."
+  testimonial: "Par"
+  image: img/embajadores/AJMatas.jpg
+  contacts:
+    - name: Web
+      link: "http://www.antoniojmatas.es/"
+
+    - name: Correo
+      link: "mailto:antoniojmatas@uma.es"
+
+    - name: "Twitter"
+      link: "https://twitter.com/antj77?lang=es"
+
+    - name: "Github"
+      link: "https://github.com/ajmatas"
+
+- name: "Raúl Montañez"
+  ciudad: Málaga
+  short-bio: "Profesor del Departamento de Biología Molecular y Bioquímica de la UMA. Conferenciante en el ciclo de charlas Impaciencia. En sus investigaciones intenta comprender el comportamiento de los sistemas biológicos por medio de la modelización y experimentación"
   testimonial: "Para lo que queráis"
-  image: img/comunidad1.jpg
-  contact: "info@hla.org"
+  image: img/embajadores/RMontanez.jpg
+  contacts:
+    - name: Web
+      link: "http://www.hacklabalmeria.org"
+
+    - name: Correo
+      link: "mailto:info@hla.org"
+
+    - name: "Twitter"
+      link: "https://twitter.com/Raul_MontanezM"
+
+- name: "Miguel Ángel Medina"
+  ciudad: Málaga
+  short-bio: "Catedrático de Bioquímica y Biología Molecular en la UMA. Trabajo en: angiogénesis, cáncer, metabolismo, biología de sistemas. Reflexiono sobre complejidad."
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/MAMedina.jpg
+  contacts:
+    - name: Correo
+      link: "mailto:medina@uma.es"
+
+- name: "Ignasi Bartomeus"
+  ciudad: Sevilla
+  short-bio: "Soy ecologo de comunidades y mi interes principal es entender como el cambio global esta afectando a las comunidades de plantas y animales, y como estos cambios repercuten en el funcionamiento del ecosistema. Para ello suelo usar como modelo de estudio las plantas con flor y sus polinizadores ya que encapsulan una función muy importante, la polinización. Actualmente dirijo mi propio grupo en la estación Biológica de Doñana (EBD-CSIC) en Sevilla."
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/IBartomeus.png
+  contacts:
+    - name: Web
+      link: "http://www.hacklabalmeria.org"
+
+    - name: Correo
+      link: "mailto:info@hla.org"
+
+    - name: "Twitter"
+      link: "https://twitter.com/ibartomeus"
+
+    - name: "Github"
+      link: "https://github.com/ibartomeus"
+
+- name: "Hacklab Almería"
+  ciudad: Almería
+  short-bio: "HackLab Almería somos un colectivo de experimentación tecnológica, social y creativa. En HackLab todos nos nutrimos de todos, compartiendo información e ideas. Es el lugar perfecto donde experimentar y hacer realidad proyectos nuevos por medio de grupos de trabajo, poniendo en contacto a expertos en diferentes materias."
+  description: "Para lo que queráis"
+  image: img/embajadores/HLA.png
+  contacts:
+    - name: Web
+      link: "http://www.hacklabalmeria.org"
+
+    - name: Correo
+      link: "mailto:info@hla.org"
+
+    - name: "Twitter"
+      link: "https://twitter.com/hacklabal?lang=es"
+
+- name: "Fablab Sevilla"
+  ciudad: Sevilla
+  short-bio: "Los fab labs se proponen a sí mismos, entonces, como laboratorios para la investigación y la innovación, tanto del desarrollo de estas nuevas tecnologías emergentes, como de la exploración hands on de sus aplicaciones."
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/FLSevilla.jpg
+  contacts:
+    - name: Web
+      link: "http://fablabsevilla.us.es/"
+
+    - name: Correo
+      link: "mailto:fablab@us.es"
+
+    - name: "Twitter"
+      link: "https://twitter.com/fablabsevilla"
+
+- name: "MedialabUGR"
+  ciudad: Granada
+  short-bio: "MediaLab UGR pretende ser un laboratorio abierto de generación de propuestas para la Universidad y la sociedad, un punto de encuentro para la investigación, la experimentación, la creatividad y la exploración de nuevas formas de conocimiento en la sociedad digital, asumiendo las bases de la cultura del prototipado y el conocimiento abierto."
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/MLUGR.png
+  contacts:
+    - name: Web
+      link: "http://www.medialab.ugr.es/"
+
+    - name: Correo
+      link: "mailto:medialab@ugr.es"
+
+    - name: "Twitter"
+      link: "https://twitter.com/MediaLabUGR"
+
+    - name: "Facebook"
+      link: "https://www.facebook.com/medialabugr"
+
+- name: "Fablab Málaga"
+  ciudad: Málaga
+  short-bio: "Un laboratorio de fabricación digital a disposición de todos, profesionales, empresas, estudiantes y particulares y que ofrece la más avanzada tecnología de diseño, modelado e impresión 3D, escaneado 3D, corte y grabado láser. Si tienes una idea o un proyecto y quieres darle forma, si vas a lanzar un producto nuevo y necesitas soporte técnico para desarrollo, diseño y modelado 3D y prototipado rápido, o si estás buscando un team creativo para lanzar tu marca este es tu laboratorio!"
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/FLMalaga.jpg
+  contacts:
+    - name: Web
+      link: "http://www.fablabmalaga.org"
+
+    - name: Correo
+      link: "mailto:info@fablabmalaga.org"
+
+    - name: "Twitter"
+      link: "https://twitter.com/FabLab_Malaga"
+
+    - name: "Facebook"
+      link: "https://www.facebook.com/fablabmalaga/?ref=br_rs"
+
+- name: "Science Hack Club"
+  ciudad: Málaga
+  short-bio: "Somos un grupo de personas interesadas en el desarrollo de la ciencia a través de la tecnología. Actualmente cualquier investigación científica deber tener un paso en el que la tecnología y, específicamente, la computación toman un papel fundamental. No obstante, la cantidad de personal científico que se siente cómodo usando este tipo de herramientas y que, por lo tanto, puede llegar a conocerlas en la profundidad suficiente como para tener la capacidad de obtener resultados rigurosos es muy baja."
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/SHC.jpg
+  contacts:
+    - name: Web
+      link: "http://www.sciencehackclub.io"
+
+    - name: "Facebook"
+      link: "https://www.facebook.com/sciencehackclub"
+
+    - name: "Github"
+      link: "https://github.com/sciencehackclub"
+
+- name: "Este podrías ser tú o tu grupo :)"
+  ciudad: Sevilla
+  short-bio: "Si quieres ayudar a los equipos o informar sobre el concurso en tu zona puedes participar en el programa embajadores. Envíanos un correo a info@impaciencia.org"
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/podrias.jpg
+  contacts:
+    - name: Más Información
+      link: "https://docs.google.com/document/d/1NSh5gK6N0BlOghR9Vg5Fav7klPaC8xLhj0DiDjD9Al0/edit?usp=sharing"

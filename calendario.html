@@ -12,12 +12,15 @@ permalink: /calendario/
 <div class="cajacalendario">
 
 	<div class="numerocalendario">
-		{{ event.date | date: "%d" }}
+		{{ event.date | date: "%d" |  replace:'0','O' }}
 	</div>
 
 	<h4> {{ event.date | date: "%B, %Y" }} </h4>
 
-  	<p> {{ event.description }} </br> </br> Ponentes>>>> {{ event.people }} </br>  Hora>>>> {{ event.date | date: "%H"}} </br>  Lugar>>>> {{ event.place }} </p> </br>
+  	<p> {{ event.description | markdownify }} </p>
+	<p>  </br></br>  Ponentes>>>> {{ event.people }} </p>
+	<p>  </br> Hora>>>> {{ event.date | date: "%H:%M"}} </p>
+	<p>  </br> Lugar>>>> {{ event.place }} </p> </br>
 	<div class="categoria"> <a href="{{ event.contactlink }}"> {{ event.contact }} </a> </div>
 
 </div>

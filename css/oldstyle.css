@@ -90,10 +90,6 @@ Description: Tema diseñado para Impaciencia
 
 */
 
-li {
-	margin-bottom: 14px;
-}
-
 body {
     width: 100%;
     margin: 0px;
@@ -131,6 +127,10 @@ a {
 
 p {
     text-align: left;
+}
+
+li { /* metido por kato */
+	margin-bottom: 14px;
 }
 
 .boton a {
@@ -391,8 +391,8 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 250px;
     height: auto;
     position: absolute;
-    right: 250px;
-    bottom: 520px;
+    right: 400px;
+    top: 80px;
     background-color: #e80064;
     color: white;
     padding-left: 20px;
@@ -408,7 +408,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     height: auto;
     position: absolute;
     right: 600px;
-    bottom: 300px;
+    bottom: 250px;
     background-color: #1d9e28;
     color: white;
     padding-left: 20px;
@@ -485,10 +485,32 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     padding-bottom: 100px;
 }
 
-.cajaproyecto {
+.cajaproyecto1 {
     width: 50%;
     float: left;
+    padding-left: 0px;
     padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.cajaproyecto2 {
+    width: 50%;
+    float: left;
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.cajaproyecto3 {
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-left: 80px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
 }
 
 .thumbnailproyecto {
@@ -517,10 +539,86 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     color: #284dd6;
 }
 
+#cajaproyectos .categoria {
+    /* -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg); */
+}
+
 .masproyectos {
     clear: both;
     text-align: center;
     padding-top: 40px;
+}
+
+
+/********* FICHA PROYECTO *********/
+
+#fichaproyecto {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+#fichaproyecto h1 {
+    width: 100%;
+    float: left;
+    padding-right: 0px;
+}
+
+#fichaproyecto img {
+    width: 100%;
+    float: left;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+#fichaproyecto p {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-right: 0px;
+}
+
+#fichaproyecto .piefoto {
+    width: 100%;
+    float: right;
+    clear: both;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#fichaproyecto .categoria {
+    width: 30%;
+    float: right;
+    margin-top: 22px;
+}
+
+#fichaproyecto .navpost {
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.navpost a {
+    color: #2c292a;
+}
+
+.anterior {
+    float: left;
+}
+
+.siguiente {
+    float: right;
 }
 
 
@@ -617,7 +715,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 80%;
     float: right;
     clear: both;
-    text-align: justify;
+    text-align: left;
     margin: 0;
     margin-top: 15px;
     margin-bottom: 35px;
@@ -667,71 +765,51 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 }
 
 
-/********* FICHA PROYECTO *********/
+/********* CALENDARIO *********/
 
-#fichaproyecto {
+#calendario {
     width: 60%;
     margin: 0 auto;
     padding-top: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
-#fichaproyecto h1 {
-    width: 80%;
-    float: left;
-    clear: both;
-}
-
-#fichaproyecto img {
-    width: 80%;
-    float: left;
-    max-width: 100%;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-#fichaproyecto p {
-    width: 80%;
-    float: left;
-    clear: both;
-    text-align: justify;
-    margin: 0;
-    margin-top: 15px;
-    margin-bottom: 35px;
-}
-
-#fichaproyecto .piefoto {
+.cajacalendario {
     width: 100%;
-    float: right;
-    clear: both;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-#fichaproyecto .categoria {
-    width: 20%;
-    float: right;
-}
-
-#fichaproyecto .navpost {
-    font-size: 14px;
-    width: 80%;
     float: left;
-    clear: both;
-    margin-top: 35px;
     margin-bottom: 80px;
+    border-top: 1px solid;
+    padding-top: 30px;
 }
 
-.navpost a {
-    color: #2c292a;
-}
-
-.anterior {
+.numerocalendario {
     float: left;
+    font-size: 140px;
+    margin-top: 45px;
+    font-weight: 800;
+    height: auto;
 }
 
-.siguiente {
-    float: right;
+.cajacalendario h4 {
+    float: left;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.cajacalendario p {
+    float: left;
+    padding-left: 186px;
+    margin-top: -20px;
+}
+
+.cajacalendario .categoria {
+    float: left;
+    padding-left: 186px;
+}
+
+.masposts {
+    clear: both;
+    text-align: center;
 }
 
 
@@ -851,11 +929,16 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 #conferencias {
     width: 60%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 100px;
     background-color: white;
     color: #1d9e28;
     clear: both;
+}
+
+#conferencias h1 {
+    clear: both;
+    margin-top: 100px;
 }
 
 #conferencias p {
@@ -969,7 +1052,23 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-bottom: 10px;
 }
 
-.bases input:focus, textarea:focus {
+.bases textarea {
+    color: #2c292a;
+    background-color: white;
+    border-top: solid 1px #2c292a;
+    border-bottom: solid 1px #2c292a;
+    border-left: solid 1px #2c292a;
+    border-right: solid 1px #2c292a;
+    padding: 5px;
+    height: auto;
+    font-family: 'calling_code_regular';
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bases input:focus, .bases textarea:focus {
     border: solid 1px #2c292a;
     outline: 0;
 }
@@ -1198,6 +1297,22 @@ input {
     margin-bottom: 10px;
 }
 
+textarea {
+    background-color: #2c292a;
+    color: white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    padding: 5px;
+    height: auto;
+    font-family: 'calling_code_regular';
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 input:focus, textarea:focus {
     border: solid 1px white;
     outline: 0;
@@ -1357,7 +1472,15 @@ h1 {
 
 
 /********* RESPONSIVE APRENDE *********/
+
 .cajacurso {
+    width: 47%;
+}
+
+
+/********* RESPONSIVE COMUNIDAD *********/
+
+.cajaembajador {
     width: 47%;
 }
 
@@ -1374,6 +1497,7 @@ h1 {
     margin-top: 10px;
     margin-left: 10px;
 }
+
 
 /********* RESPONSIVE HOME *********/
 
@@ -1440,7 +1564,6 @@ h1 {
 .contenidoaprende {
     width: 100%;
     padding: 50px;
-	display: grid;
 }
 
 #cursos {
@@ -1452,6 +1575,11 @@ h1 {
     width: 100%;
     padding: 50px;
 }
+
+.cajacurso {
+    width: 100%;
+}
+
 
 /********* RESPONSIVE PARTICIPA *********/
 
@@ -1465,6 +1593,7 @@ h1 {
     width: 100%;
     padding: 50px;
 }
+
 
 /********* RESPONSIVE COMUNIDAD *********/
 
@@ -1488,11 +1617,277 @@ h1 {
     padding: 50px;
 }
 
+.cajaembajador {
+    width: 100%;
+}
+
+.thumbnailequipo {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.cajaequipo p {
+    width: 100%;
+    float: right;
+    padding-left: 0px;
+}
+
+.cajaequipo .categoria {
+    width: 100%;
+    float: right;
+    font-size: 14px;
+    padding-left: 0px;
+    clear: none;
+}
+
+
 /********* RESPONSIVE CONTACTO *********/
 
 .contenidocontacto {
     width: 100%;
     padding: 50px;
+}
+
+
+/********* RESPONSIVE PROYECTOS *********/
+
+#cajaproyectos {
+    width: 100%;
+    padding: 50px;
+}
+
+
+/********* RESPONSIVE FICHA PROYECTO *********/
+
+#fichaproyecto {
+    width: 100%;
+    padding: 50px;
+    padding-top: 150px;
+}
+
+#fichaproyecto .categoria {
+    width: 80%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+/********* RESPONSIVE BLOG *********/
+
+#cajablog {
+    width: 100%;
+    padding: 50px;
+}
+
+.cajapost {
+    margin-bottom: 50px;
+}
+
+.thumbnailpost {
+    background-color: #284dd6;
+    width: 40%;
+    clear: both;
+    float: none;
+    margin-top: 60px;
+}
+
+.thumbnailpost img:hover {
+    opacity: 0.1;
+}
+
+.cajapost .datapost {
+    clear: inherit;
+    padding-left: 0px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cajapost h1 {
+    width: 100%;
+    float: right;
+    padding-left: 0px;
+}
+
+.cajapost .categoria {
+    width: 100%;
+    float: right;
+    font-size: 14px;
+    padding-left: 0px;
+    clear: none;
+}
+
+.masposts {
+    clear: both;
+    text-align: center;
+}
+
+
+/********* RESPONSIVE POST *********/
+
+#post {
+    width: 100%;
+    padding: 50px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+
+/********* RESPONSIVE CALENDARIO *********/
+
+#calendario {
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+.cajacalendario {
+    width: 100%;
+    float: left;
+    margin-bottom: 80px;
+    border-top: 1px solid;
+    padding-top: 30px;
+}
+
+.numerocalendario {
+    float: left;
+    font-size: 140px;
+    margin-top: 45px;
+    font-weight: 800;
+    height: auto;
+}
+
+.cajacalendario h4 {
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 65px;
+}
+
+.cajacalendario p {
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 8px;
+}
+
+.cajacalendario .categoria {
+    padding-left: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+/********* RESPONSIVE PROYECTOS *********/
+
+.cajaproyecto1 {
+    width: 80%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 00px;
+    padding-bottom: 80px;
+}
+
+.cajaproyecto2 {
+    width: 80%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.cajaproyecto3 {
+    width: 80%;
+    float: left;
+    clear: both;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+
+/********* RESPONSIVE POST *********/
+
+#post {
+    padding-top: 250px;
+    padding-bottom: 80px;
+}
+
+#post h1 {
+    width: 100%;
+    float: right;
+    clear: both;
+}
+
+#post img {
+    width: 100%;
+    float: left;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#post p {
+    width: 100%;
+    float: right;
+    clear: both;
+    text-align: left;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.datapost {
+    width: 100%;
+    float: right;
+    clear: both;
+    font-size: 14px;
+}
+
+.piefoto {
+    width: 100%;
+    float: left;
+    clear: both;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#post .categoria {
+    width: 100%;
+    float: right;
+    clear: both;
+}
+
+.navpost {
+    font-size: 14px;
+    width: 100%;
+    float: right;
+    clear: both;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.navpost a {
+    color: #2c292a;
+}
+
+.anterior {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.siguiente {
+    width: 100%;
+    float: left;
 }
 
 }
