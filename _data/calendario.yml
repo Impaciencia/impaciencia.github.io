@@ -3,49 +3,49 @@
   people: Organización Impaciencia
   place: UMA. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-07 19:00:00 Z
   description: "Conferencia **Hacking the logic of life (Pirateando la lógica de la vida)**. Una charla sobre biología sintética y computación"
   people: Raúl Montañez
   place: UMA. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-09 19:00:00 Z
   description: "**Charla informativa del concurso Impaciencia en Jaén**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
   place: UJA. Salón de Grados del edificio de Ingeniería y Tecnología (A3)
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-14 18:30:00 Z
   description: "**Charla informativa del concurso Impaciencia en Jaén**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
   place: UCO. Pronto más información.
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-14 19:00:00 Z
   description: "**Conferencia sobre como utilizar git y github en investigación**. El control de versiones nos puede ayudar a trabajar de forma más ordenada y eficiente con nuestra investigación."
   people: Carlos Vivar
   place: UCO. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-14 18:30:00 Z
   description: "**Charla informativa del concurso Impaciencia en Córdoba**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
   place: US. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-16 19:00:00 Z
   description: "**Conferencia sobre código creativo y el arte digital**. En esta conferencia podremos ver como a partir de datos se pueden realizar instalaciones audiovisuales"
   people: Marta Verde
   place: US. Pronto más información
   contact: martaverde.net
-  contactlink: martaverde.net
+  contactlink: http://www.martaverde.net
 
 - date: 2017-11-21 18:30:00 Z
   description: "**Charla informativa del concurso Impaciencia en Huelva**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
@@ -59,28 +59,28 @@
   people: Pronto más información
   place: UHU. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-23 18:30:00 Z
   description: "**Charla Informativa del concurso Impaciencia en Cádiz**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
   place: UCA. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-28 18:30:00 Z
   description: "**Charla informativa del concurso Impaciencia en Granada**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
   place: UGR. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-11-28 19:00:00 Z
   description: "**Conferencia sobre grupos makers y hacklabs de Andalucia**. ¿Cúal puede ser el papel de estos espacios en la investigación?"
   people: Pronto más información
   place: UGR. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 
 
@@ -90,7 +90,7 @@
   people: Organización Impaciencia
   place: UCO. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 
 
@@ -99,14 +99,14 @@
   people: Organización Impaciencia
   place: UMA. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2017-12-14 19:00:00 Z
   description: "**Conferencia sobre python científico y como utilizar cuadernos jupyter para mejorar la reproducibilidad de las investigaciones**"
   people: Carlos Vivar
   place: UMA. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 
 - date: 2018-01-09 18:30:00 Z
@@ -114,7 +114,7 @@
   people: Organización Impaciencia
   place: UGR. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2018-01-09 19:00:00 Z
   description: "**Conferencia sobre el uso de open hardware para la construcción de instrumental de investigación**"
@@ -130,7 +130,7 @@
   people: Organización Impaciencia
   place: US. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2018-01-11 19:00:00 Z
   description: "Conferencia: **Un biologo, un ingenerio y un diseñador grafico entran en un bar... o cómo investigar qué les pasa a las abejas**"
@@ -146,7 +146,7 @@
   people: Organización Impaciencia
   place: UCA. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 
 - date: 2018-01-23 18:30:00 Z
@@ -154,7 +154,7 @@
   people: Organización Impaciencia
   place: UHU. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 
 
@@ -163,7 +163,7 @@
   people: Organización Impaciencia
   place: UMA. Pronto más información
   contact: impaciencia.org
-  contactlink: impaciencia.org
+  contactlink: http://www.impaciencia.org
 
 - date: 2018-01-09 19:00:00 Z
   description: "**Conferencia sobre ciencia ciudadana** ¿Puede alguien hacer investigación sin ser invetigador? Ven a descubrirlo a esta charla."
