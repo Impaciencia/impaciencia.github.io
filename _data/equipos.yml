@@ -6,6 +6,14 @@
       - name: Github (Próximamente)
         link:
 
+- name: "Los Girasoles Videntes"
+  estudios: "Filología Hispánica (UMA), Biología (UMA) y ¡Están buscando a un ingeniero y un psicólogo! :)"
+  short-bio: Consistirá en el estudio de la especialización del lenguaje en distintos perfiles de personas
+  image: img/equipos/losgirasolesvidentes.jpg
+  contacts:
+      - name: Github (Próximamente)
+        link:
+
 - name: "Este podría ser tú equipo ¿A qué esperas?"
   estudios: "No hay límites, cualquier carrera vale"
   short-bio: Podéis investigar sobre lo que queráis, cualquier tema es válido.
