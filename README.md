@@ -3,17 +3,19 @@ impaciencia website
 
 
 # TODO
-- [ ] ID Submenu en la páginas
+- [x] ID Submenu en la páginas
 - [x] Secciones de blog y post
-- [ ] Contacto
-- [ ] Textos Home
-- [ ] Texto Inscripci'on
-- [ ] Formulario
+- [x] Contacto
+- [x] Textos Home
+- [x] Texto Inscripci'on
+- [x] Formulario
 - [x] Bases de Datos
-- [ ] Footer Info
+- [x] Footer Info
 - [x] Fix logo in other sections
 - [x] Calendario img
-- [ ] Secci'on Calendario
-- [ ] Fix dates in blog
+- [x] Secci'on Calendario
+- [x] Fix dates in blog
 - [x] favicon
-- [ ] contacto logo
+- [x] contacto logo
+- [ ] Foro
+- [ ] FAQ
