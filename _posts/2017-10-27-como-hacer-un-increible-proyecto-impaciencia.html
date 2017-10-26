@@ -1,0 +1,135 @@
+<p>Venga el primer paso es buscar a amigos e inscribíos en un equipo. Lo ideal es que en estos se junten estos perfiles:</p>
+<div class="figure">
+<img src="/img/equipos/sin.jpg" />
+
+</div>
+<ul>
+<li><strong>Estudiantes de humanidades o ciencias</strong> que planteen preguntas y formas de responderlas. Estas formas pueden ser por ejemplo un estudio o experimento.</li>
+<li><strong>Estudiantes de ingenierías</strong> que puedan prestar apoyo técnico al análisis de los datos, la construcción de intrumental y a la comunicación.</li>
+<li><strong>Estudiantes de comunicación</strong> que tomen los resultados y puedan comunicarlos a la sociedad de una forma original o quizás estudiantes de arte que tomen esos resultados como fuente de inspiración.</li>
+</ul>
+<p>Pero oye, esto son solo perfiles ejemplo que la organización ha pensado. En la realidad queremos que nos sorprendáis, dejadnos como tontos y demostrad que la carrera que elijes no define lo que haces. <strong>Es en la mezcla donde está el secreto de lo genuino</strong>.</p>
+<h2 id="ya-tenemos-un-equipo-y-una-idea-ahora-qué">Ya tenemos un equipo y una idea, ¿Ahora qué?</h2>
+<p>Lo primero que tendréis que hacer es elegir un nombre chulo e <a href="https://docs.google.com/forms/d/e/1FAIpQLSdblWB1HK-2-p4KuRDd1DRa_NgdwSXpf2lREJjGGd-2gGNVkw/viewform?usp=send_form">incribiros en este formulario</a>. Y ahora sí, a remangarse que vamos a ponernos manos a la obra.</p>
+<p>Las investigaciones que buscamos en Impaciencia tienen que poder ser replicables, es decir, cualquier persona que repita exactamente lo mismo que vosotros (si es que puede) tiene que encontrar las mismas conclusiones o resultados. Esto es crucial si queremos que nuestros proyectos puedan ser utilizados por otras personas o que estas sean el punto de inicio de una exploración más profunda sobre el tema.</p>
+<p>Es sorprendente pero estamos teniendo actualmente una crisis gordísisisisisisima de reproducibilidad en investigación (<a href="https://www.nature.com/news/reproducibility-1.17552">ejem</a>, <a href="http://science.sciencemag.org/content/349/6251/aac4716">ejem</a>, <a href="http://www.nature.com/nature/journal/v483/n7391/full/483531a.html">ejem ejem</a>) y hay muchos investigadores e <a href="https://osf.io/">iniciativas</a> intentando encontrar una solución a esto. No nos gustaría que esto pasará a nuestros increibles proyectos después de dedicarle tanto esfuerzo. Por esto vamos a utilizar una metodología de documentación y trabajo en equipo basado en el control de versiones y repositorios que garantice la máxima reproducibilidad posible.</p>
+<p>Ey Ey, oye colega a mí esto nunca me lo han enseñado en clase, yo me piro de aquí. Espera, ya verás como es muy fácil y te resultará muy útil para cualquier tipo de proyecto que lleves a cabo, pero primero empecemos por la estructura ejemplo de un proyecto de investigación Impaciencia.</p>
+<h2 id="la-estructura-de-los-proyectos">La Estructura de los proyectos</h2>
+<p>Los proyectos Impaciencia se tienen que poder diseccionar en las siguientes partes:</p>
+<ul>
+<li><strong>Parte teórica</strong>: contiene el tema de investigación, la metodología utilizada, los datos en bruto, los resultados finales así como los análisis estadísticos necesarios.</li>
+<li><strong>Parte técnica</strong>: aquí encontraremos los instrumentos que hayamos tenido que usar o construir para poder realizar las mediciones así como los programas de análisis de datos utilizados. Todos los recursos tecnológicos que sean necesarios para poder reproducir la investigación tienen que estar definidos aquí.</li>
+<li><strong>Parte comunicativa</strong>: aquí encontraremos información de cómo vamos a comunicar nuestros resultados, ya sea el código de una web o el guión de un vídeo de youtube. Lo que sea que utilicéis para transmitir los resultados debería estar descrito aquí.</li>
+</ul>
+<p>Definiendo bien la teoría y la técnica, cualquier persona con interés tiene que poder ser capaz de reproducir vuestros resultados. Es lógico, si se tiene acceso al diseño del estudio, a las herramientas utilizadas y a los análisis realizados se podrá llevar a cabo nuevamente. No hay secretos, es un proceso transparente.</p>
+<p>Esto es muy excitante porque nos servirá para muchas cosas, además de documentar nuestra investigación. Por ejemplo, imaginad que a alguien se le ocurre que quiere poner a prueba vuestros resultados con otro tipo de análisis, o que quiere probar otra herramienta, o el mismo diseño pero en otras condiciones. Todo esto se podría hacer de forma rápida si las investigaciones estuvieran bien definidas en un formato común.</p>
+<p>Vale, esto de forma abstracta y teórica suena muy bien, pero ¿cómo llevarlo a cabo en la práctica?</p>
+<h2 id="el-flujo-de-trabajo-en-una-investigación">El flujo de trabajo en una investigación</h2>
+<p>Cuando pensamos en una investigación lo más normal es que nos la imaginemos de forma lineal. Definimos muy bien nuestro diseño de estudio, lo que vamos a necesitar y qué clase de resultados vamos a obtener. La realidad es mucho más compleja, sucia e interesante. <strong>A medida que vamos avanzando y leyendo nos podemos dar cuenta de que quizás el diseño inicial no es correcto del todo o puede que los datos que obtenemos en nuestro primer experimento no son los que esperábamos</strong>. La verdad es que la investigación es tan interesante y adictiva porque precisamente no podemos predecir qué vamos a obtener y por esto necesitamos un sistema que vaya adaptándose a estos cambios.</p>
+<div class="figure">
+<img src="/img/blog/caos_archivos.png" alt="Esto, desgraciadamente, nos ha pasado demasiadas veces a todos U.u" />
+<p class="caption">Esto, desgraciadamente, nos ha pasado demasiadas veces a todos U.u</p>
+</div>
+<p>Además a todo esto hay que sumarle que las investigaciones se realizan normalmente en grupo y la organización entre todos puede llegar a ser un caos. <strong>La investigación ya es lo suficientemente compleja para que encima la dificultemos aún más no utilizando una forma de trabajar en grupo eficiente</strong>. ¿Qué ocurre si las herramientas para facilitar esto ya están creadas y se están usando con éxito en otros campos? ¿Qué pasa si encima decimos que las herramientas son gratuitas? ¿Sería interesante usarlas, verdad?</p>
+<p>El desarrollo de software ya se encontró este mismo problema hace mucho tiempo y lo resolvió desarrollando un programa que controla todos los archivos de un proyecto. <strong>Este sistema vigila todos los cambios que cualquier usuario hace sobre cualquier archivo, ya sea un documento de texto, una tabla con datos o un script de programación. Además estos cambios pueden ser reversibles en cualquier momento por lo que la información no se pierde</strong>. Y por si esto fuera poco nos permite de una forma muy fácil copiar y modificar cualquier proyecto público. Esto se conoce como control de versiones y uno de los programas más famosos que hace esto es Git.</p>
+<div class="figure">
+<img src="/img/blog/gource_git_visualization.gif" alt="Visualización de las personas que modifican los archivos de un programa a través de git" />
+<p class="caption">Visualización de las personas que modifican los archivos de un programa a través de git</p>
+</div>
+<p>Debido a que Git se originó en el desarrollo de aplicaciones, quizás un primer vistazo a la web solo te devuelva resultados relacionados con esto. Pero no te asustes, cada vez más se está utilizando Git con los archivos de investigación e incluso los proyectos pueden recibir un <a href="https://zenodo.org/">DOI para que sean publicados en revistas acádemicas</a>. Esto último es muy interesante pues cada vez más revistas están valorando que, tanto los datos como el código que ha llevado a unos resultados, esté disponible de forma online.</p>
+<p>También <strong>todos los proyectos con sus archivos pueden estar sincronizados en una web facilitando el trabajo en grupo de forma remota</strong> (de hecho, seguramente sea gracias a esto que tu amigo informático puede trabajar en calzoncillos desde su casa cada día). E incluso algunas de estas webs, por ejemplo Github, aparte de controlar tus archivos ofrecen unas funcionalidades muy interesantes como; por ejemplo, la de publicar una web con tu proyecto, publicar un libro, hacer una wiki o visualizar los informes de los análisis de datos directamente en tu navegador (y todo esto gratis).</p>
+<p>Quizás nos estamos pasando pero podemos decir que usar Git y páginas como Github se está convirtiendo en una pieza central en el desarrollo de cualquier proyecto digital, incluidas las investigaciones.</p>
+<h2 id="los-repostorios-en-investigación">Los repostorios en investigación</h2>
+<p>A los proyectos en Git; es decir, a las carpetas con todos los archivos a controlar, se les llama repositorios y estos pueden contener carpetas y archivos (básicamente todo). En una investigación no existe una forma estándar de organizar los repositorios y se pueden muchos asociados, tantos como sean necesarios. No obstante, para simplificar las cosas, en Impaciencia os proponemos que los proyectos presentados estén compuestos por los siguientes:</p>
+<ul>
+<li><strong>Un repositorio teórico</strong></li>
+<li><strong>Uno o Varios repositorios técnicos</strong></li>
+<li><strong>Uno o varios repositorios comunicativos</strong></li>
+</ul>
+<div class="figure">
+<img src="/img/blog/guia-desarrollo.png" />
+
+</div>
+<p>Si no sabes cómo usar Git o Github lo mejor es que busques a algún miembro que sepa para el equipo aunque también puedes esperar un poco a que publiquemos nuestro tutorial, o también puedes aventurarte e intentar aprenderlo por ti mismo (<a href="https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop">te recomendamos esta página</a>). Aquí continuaremos explicando como se pueden organizar los proyectos para presentarlos a Impaciencia, si no te queda claro aún que son los repositorios imagínate que son carpetas con archivos.</p>
+<h3 id="el-repositorio-teórico">El repositorio teórico</h3>
+<p>Intentad pensad en vuestra investigación de la siguiente forma. Por un lado, tenemos toda la información que describe la investigación (el tema o hipótesis, los métodos, una descripción del diseño del estudio o experimento, etc.), luego tendremos los datos que hemos ido recogiendo, los recursos digitales que hemos utilizado (sonidos, imágenes, etc.), la bibliografía utilizada y también podremos tener los análisis estadísticos que pueden haberse realizado con R. Si esto fuera un repositorio podría tener esta organización:</p>
+<pre><code>Repositorio_teórico
+├── datos
+│   ├── mediciones_grupo1_condicionA.csv
+│   ├── mediciones_grupo2_condicionA.csv
+│   ├── mediciones_grupo1_condicionB.csv
+│   └── mediciones_grupo2_condicionB.csv
+├── recursos
+│   ├── cancion_chulaA.mp3
+│   └── cancion_chulaB.mp3
+├── bibliografía
+│   ├── artículos.bib
+│   └── articulo_open.pdf
+├── análisis
+│   ├── Script_figura002.py
+│   ├── figura002.jpg
+│   └── medicion_automática.ipnb
+├── estadistica
+│   ├── test_estadistico.R
+│   ├── Script_figura001.R
+│   ├── figura001.jpg
+│   └── informe_test.pdf
+├── articulo
+│   ├── articulo.tex
+│   ├── figura001.jpg
+│   ├── figura002.jpg
+│   └── articulo_final.pdf
+└── README.md (o README.txt)</code></pre>
+<p>El último archivo, llamado <strong>README.md</strong>, es algo común en todos los repositorios. Se utiliza para describir de qué trata el mismo, quien lo ha hecho y en muchas ocasiones para enseñar a utilizar la información o el programa que contiene el repositorio.</p>
+<p>Nosotros esperamos que ese README sea utilizado para describir la información que permita a cualquier otra persona repetir vuestro experimento; es decir, <strong>debería contener información sobre el tema o hipótesis, las variables, la muestra, la descripción de vuestro diseño de estudio, cómo ha sido realizado (esto se puede hacer en modo diario en otro archivo si os resulta más cómodo), los materiales utilizados, los programas usados y las conclusiones finales.</strong></p>
+<p>Este archivo puede estar escrito en .txt, aunque recomendamos usar markdown pues os permitirá meter imágenes, vídeos, tablas, ecuaciones, etc. Este tipo de archivos tienen una ventaja respecto a los .doc y es que se pueden editar muy fácilmente y gratuitamente, además permiten hacer páginas webs y presentaciones de forma muy sencilla. Pronto publicaremos un tutorial de cómo escribir en markdown, mientras tanto puedes empezar a usarlo aquí (te avisamos, es muy útil para tomar apuntes en clase).</p>
+<p>También podéis escribir un artículo de tipo más clásico utilizando Latex, para esto recomendamos usar la web <a href="http://www.overleaf.org">Overleaf</a></p>
+<h3 id="el-o-los-repositorio-técnico">El (o los) repositorio técnico</h3>
+<p><strong>Es muy probable que durante la investigación tengamos que utilizar algún tipo de instrumento o programa</strong>. Si alguien ya las ha hecho y publicado en github estos pueden ser descargadas y utilizados en vuestra investigación (aquí tenéis una lista con muchos recursos abiertos). Es incluso posible que las modifiquéis para adaptarlas a vuestro problema específico. Vuestra investigación puede hacer uso de tantos repositorios técnicos como os sean necesarios,aquí pondremos el ejemplo de un repositorio de un instrumento y otro de un programa.</p>
+<p>Imaginad que nuestro experimento consiste en comprobar si las plantas crecen más con un tipo de música u otro. Para esto ponemos a cultivar un conjunto de plantas con dos canciones en bucle y realizamos mediciones sobre el tallo cada día. Podríamos hacerlo a mano, acudir cada día y medir todas las plantas a mano. Claro que sí, esto sería factible si fueran pocas y si le tuvieramos poco aprecio a nuestra vida social. Pero supongamos que nos gusta hacer otras cosas aparte de ir al laboratorio un domingo por la mañana, <strong>¿se podría realizar esto automáticamente de alguna manera?</strong>. Y lo que es más importante, <strong>¿se podría realizar sin tener que vender un riñón O.o?</strong></p>
+<p>Nuestro miembro del equipo que estudia ingeniería dice que sí, que con un aparato que tome fotos y con un programa que te analice la diferencia de las fotos es posible. Que se montan dos repositorios, un para cada parte y PIM PAM!, ya puedes disfrutar de este finde.</p>
+<h4 id="repositorio-ejemplo-de-un-instrumento-de-medición-por-cámara.">Repositorio ejemplo de un instrumento de medición por cámara.</h4>
+<p><strong>La idea es diseñar un aparato que tome fotografías de las plantas cada tiempo que nosotros queramos</strong>. Esto se puede hacer con una webcam, una raspberry Pi que esté conectada y una estructura que permita ponerla en la mejor posición para fotografiar a nuestras plantas.</p>
+<p>El código puede ser un pequeño programa de Linux (script de bash) que tome fotografías cada día y la estructura que coge la cámara se ha diseñado con un programa de edición 3D (almacenado en formato CAD) e impreso con una impresora 3D. Si ponemos todos estos archivos en un repositorio, cualquier persona podrá construir este mismo instrumento. Un ejemplo de cómo quedaría el repositorio podría ser:</p>
+<pre><code>Repositorio_Instrumento
+├── estructura
+│   ├── soporte_camara.CAD
+│   └── carcasa_raspberryPI.CAD
+├── código
+│   └── capturar_fotografias.sh
+└── README.md</code></pre>
+<p>En este caso el <strong>README.md contendría información sobre qué hace este instrumento, cómo montarlo, qué partes han sido necesarias, qué modelo de Raspberry Pi y cámara se han utilizado, etc.</strong></p>
+<p>El utilizar un repositorio para almacenar este instrumento hace que si en un futuro alguien quiera mejorarlo y utilizar, por ejemplo, un sistema de control de la iluminación o de riego simplemente lo copiaría y le añadiría esa parte.</p>
+<h4 id="repositorio-ejemplo-de-análisis-de-las-fotos.">Repositorio ejemplo de análisis de las fotos.</h4>
+<p>Una vez que tenemos las fotos hay que sacar la medición; es decir, necesitamos obtener un número. <strong>Esto se puede realizar a mano pero también se podría automatizar con un pequeño programa en Python que le aplique un filtro a la imagen y sea capaz de extraer de ahí cuánto ha crecido esa planta</strong>. Nuevamente esto nos regala más tiempo que gastar haciendo cosas más interesantes, aumenta la reproducibilidad y es escalable. Esto último significa que al programa le da lo mismo medir 10 que 10000 plantas, en cambio a nosotros sí que suele importarnos un poquito.</p>
+<p>Este repositorio puede tener la siguiente estructura:</p>
+<pre><code>Repositorio_Instrumento
+├── dataset_ejemplo
+│   ├── 100_fotos_de_plantas_sexy.zip
+│   └── resultados_esperados.csv
+├── código
+│   ├── procesador_de_imagen.py
+│   └── medidor_de_crecimiento.py
+└── README.md</code></pre>
+<p>En este <strong>README.md se espera que venga especificado cómo usar este programa de Python, para qué versión de Python fue hecho, como utilizar el dataset de ejemplo y las dependencias que tenga</strong>.</p>
+<p>Estos son solo dos ejemplos muy generales para que os hagáis una idea de cómo organizar las herramientas pero tened siempre en mente que cada investigación es un mundo y que esto condicionará el cómo organicéis vuestras herramientas. Sin embargo, no lo olvidéis tenéis que dejar las cosas lo suficientemente claras como para que cualquier otra persona las pueda utilizar ;)</p>
+<h3 id="el-repositorio-de-comunicación.">El repositorio de comunicación.</h3>
+<p>Finalmente nos queda una parte muy importante que hacer. Por muy increibles que sean nuestros resultados si no son comunicados correctamente pasarán desapercibidos. Necesitamos realizar ese último esfuerzo e intentar que quede lo más claro posible lo que queremos comunicar. Aquí los estudiantes de comunicación tienen mucho que decir pues también se puede innovar en la forma de comunicar.</p>
+<p>Actualmente es posible visualizar o escuchar los datos de maneras que nos resulten más intuitivos o construir páginas webs que nos permitan interactuar con la información (como en las explicaciones explorables). Incluso un pequeño videojuego puede servir para divulgar la información. Estamos muy interesados en ver qué nuevas formas de comunicar utilizáis.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ndLkP-bNL1s" frameborder="0" allowfullscreen>
+</iframe>
+<p>También algo clásico como un artículo divulgativo o una práctica puede funcionar bien. Además es posible también que los resultados den lugar a algunas obras artísticas que podrían englobarse dentro del código creativo con lo que su ejecución quedaría contenida en un repositorio.</p>
+<p><strong>NOTA</strong>: Es posible que algunos formatos de comunicación no se adapten a un repositorio, por ejemplo: un vídeo subido a youtube o actividad de divulgación presencial o en redes sociales. En estos casos se podría crear un repositorio con un README.md que describa la estrategia de comunicación seguida y enlace al vídeo, al guión, etc. Ante la duda consultad con la organización.</p>
+<h2 id="la-organización-de-los-repositorios.">La organización de los repositorios.</h2>
+<p>Estos repositorios deberán estar todos asociados a una <em>organizción github</em> que lleve el nombre de vuestro equipo. Aquí podréis haceros una: <a href="https://github.com/organizations/new">Github Organization</a>. Elejid el plan free, en principio. Debido a que sois estudiantes Github os concederá una cuenta premium totalmente gratuira y a través de este<a href="https://education.github.com/discount_requests/new">formulario para que os concedan repositorios privados vinculados</a> a vuestra organización. Solicitad tantos como veáis necesarios.</p>
+<p>Mantened los repositorios en privado hasta el día que nos presentéis la versión final de ellos.</p>
+<p>Lo ideal sería que vuestra organización en github también tuviera una página web con el siguiente dominio: www.NOMBRE-DEL-EQUIPO.github.io. <a href="http://www.evaristogz.com/pagina-web-estatica-github-pages/">Aquí podréis aprender como hacerlo</a>.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Sabemos que pedimos quizás muchas cosas que no nos han enseñado en la carrera pero es justamente por eso por lo que lo hacemos. La investigación está cambiando día a día y a veces las metodologías que nos enseñan en la carrera están desactualizadas y son poco eficientes. Este proyecto más que ser un concurso con un premio monetario está pensado para que aprendamos los unos de los otros a utilizar las herramientas que nos permitan conocer el mundo de una manera eficiente y segura.</p>
+<p><strong>Los proyectos Impaciencia no son solo para desarrolladores, ni solo para científicos, ni gente de humanidades, ni solo para comunicadores o artistas. Estos proyectos son para todos, utilizar lo digital; es decir los repositorios, no lo dirige hacia una disciplina u otra</strong>. Tú mismo nos estás leyendo a través de un medio digital com lo es una pantalla ¿acaso lo que esté en libros es solo para gente de letras y lo que esté en un ordenador es solo para gente de ingenierías? Claramente no.</p>
+<p>Dejemos de lado las restricciones que nos <del>han impuesto</del> hemos impuesto y encontremos en la colaboración el medio principal para responder las preguntas que nos hacemos sobre el mundo.</p>
+<p><strong>¡A investigar señor@s!</strong></p>
+<div class="figure">
+<img src="/img/blog/madpersonlaughting.gif" />
+
+</div>
