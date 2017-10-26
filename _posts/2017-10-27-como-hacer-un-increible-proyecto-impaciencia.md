@@ -53,7 +53,7 @@ Además a todo esto hay que sumarle que las investigaciones se realizan normalme
 
 El desarrollo de software ya se encontró este mismo problema hace mucho tiempo y lo resolvió desarrollando un programa que controla todos los archivos de un proyecto. **Este sistema vigila todos los cambios que cualquier usuario hace sobre cualquier archivo, ya sea un documento de texto, una tabla con datos o un script de programación. Además estos cambios pueden ser reversibles en cualquier momento por lo que la información no se pierde**. Y por si esto fuera poco nos permite de una forma muy fácil copiar y modificar cualquier proyecto público. Esto se conoce como control de versiones y uno de los programas más famosos que hace esto es Git.
 
-![Visualización de las personas que modifican los archivos de un programa a través de git](img/blog/gource_git_visualization.gif)
+![Visualización de las personas que modifican los archivos de un programa a través de git](/img/blog/gource_git_visualization.gif)
 
 Debido a que Git se originó en el desarrollo de aplicaciones, quizás un primer vistazo a la web solo te devuelva resultados relacionados con esto. Pero no te asustes, cada vez más se está utilizando Git con los archivos de investigación e incluso los proyectos pueden recibir un [DOI para que sean publicados en revistas acádemicas](https://zenodo.org/). Esto último es muy interesante pues cada vez más revistas están valorando que, tanto los datos como el código que ha llevado a unos resultados, esté disponible de forma online.
 
