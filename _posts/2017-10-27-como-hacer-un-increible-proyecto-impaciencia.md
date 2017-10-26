@@ -9,12 +9,7 @@ categories:
 thumbnail: /img/blog/guia-desarrollo.png
 layout: post
 ---
-
-# ¿Cómo hacer un increíble proyecto Impaciencia? (Guía de desarrollo de proyectos)
-
-Venga el primer paso es buscar a amigos e inscribíos en un equipo
-
-Lo ideal es que en los equipos se junten estos perfiles:
+Venga el primer paso es buscar a amigos e inscribíos en un equipo. Lo ideal es que en estos se junten estos perfiles:
 
 ![](/img/equipos/sin.jpg)
 
@@ -26,7 +21,7 @@ Pero oye, esto son solo perfiles ejemplo que la organización ha pensado. En la 
 
 ## Ya tenemos un equipo y una idea, ¿Ahora qué?
 
-Lo primero que tendréis que hacer es elegir un nombre chulo e incribiros en este formulario. Y ahora sí, a remangarse que vamos a ponernos manos a la obra.
+Lo primero que tendréis que hacer es elegir un nombre chulo e [incribiros en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSdblWB1HK-2-p4KuRDd1DRa_NgdwSXpf2lREJjGGd-2gGNVkw/viewform?usp=send_form). Y ahora sí, a remangarse que vamos a ponernos manos a la obra.
 
 Las investigaciones que buscamos en Impaciencia tienen que poder ser replicables, es decir, cualquier persona que repita exactamente lo mismo que vosotros (si es que puede) tiene que encontrar las mismas conclusiones o resultados. Esto es crucial si queremos que nuestros proyectos puedan ser utilizados por otras personas o que estas sean el punto de inicio de una exploración más profunda sobre el tema.
 
@@ -52,13 +47,13 @@ Vale, esto de forma abstracta y teórica suena muy bien, pero ¿cómo llevarlo a
 
 Cuando pensamos en una investigación lo más normal es que nos la imaginemos de forma lineal. Definimos muy bien nuestro diseño de estudio, lo que vamos a necesitar y qué clase de resultados vamos a obtener. La realidad es mucho más compleja, sucia e interesante. **A medida que vamos avanzando y leyendo nos podemos dar cuenta de que quizás el diseño inicial no es correcto del todo o puede que los datos que obtenemos en nuestro primer experimento no son los que esperábamos**. La verdad es que la investigación es tan interesante y adictiva porque precisamente no podemos predecir qué vamos a obtener y por esto necesitamos un sistema que vaya adaptándose a estos cambios.
 
-![Esto, desgraciadamente, nos ha pasado demasiadas veces a todos U.u](/img/blog/caos_archivos.png)
+![Esto, desgraciadamente, nos ha pasado demasiadas veces a todos U.u](/img/blog/archivos_caos.png)
 
 Además a todo esto hay que sumarle que las investigaciones se realizan normalmente en grupo y la organización entre todos puede llegar a ser un caos. **La investigación ya es lo suficientemente compleja para que encima la dificultemos aún más no utilizando una forma de trabajar en grupo eficiente**. ¿Qué ocurre si las herramientas para facilitar esto ya están creadas y se están usando con éxito en otros campos? ¿Qué pasa si encima decimos que las herramientas son gratuitas? ¿Sería interesante usarlas, verdad?
 
 El desarrollo de software ya se encontró este mismo problema hace mucho tiempo y lo resolvió desarrollando un programa que controla todos los archivos de un proyecto. **Este sistema vigila todos los cambios que cualquier usuario hace sobre cualquier archivo, ya sea un documento de texto, una tabla con datos o un script de programación. Además estos cambios pueden ser reversibles en cualquier momento por lo que la información no se pierde**. Y por si esto fuera poco nos permite de una forma muy fácil copiar y modificar cualquier proyecto público. Esto se conoce como control de versiones y uno de los programas más famosos que hace esto es Git.
 
-![Visualización de las personas que modifican los archivos de un programa a través de git](/img/blog/gource_git_visualization.gif)
+![Visualización de las personas que modifican los archivos de un programa a través de git](img/blog/ gource_git_visualization.gif)
 
 Debido a que Git se originó en el desarrollo de aplicaciones, quizás un primer vistazo a la web solo te devuelva resultados relacionados con esto. Pero no te asustes, cada vez más se está utilizando Git con los archivos de investigación e incluso los proyectos pueden recibir un [DOI para que sean publicados en revistas acádemicas](https://zenodo.org/). Esto último es muy interesante pues cada vez más revistas están valorando que, tanto los datos como el código que ha llevado a unos resultados, esté disponible de forma online.
 
@@ -183,7 +178,7 @@ También algo clásico como un artículo divulgativo o una práctica puede funci
 
 ## La organización de los repositorios.
 
-Estos repositorios deberán estar todos asociados a una *organizción github* que lleve el nombre de vuestro equipo. Aquí podréis haceros una: [Github Organization](https://github.com/organizations/new). Elejid el plan free, en principio. Debido a que sois estudiantes Github os concederá una cuenta premium totalmente gratuira y a través de este formulario para que os concedan repositorios privados vinculados a vuestra organización. Solicitad tantos como veáis necesarios.
+Estos repositorios deberán estar todos asociados a una *organizción github* que lleve el nombre de vuestro equipo. Aquí podréis haceros una: [Github Organization](https://github.com/organizations/new). Elejid el plan free, en principio. Debido a que sois estudiantes Github os concederá una cuenta premium totalmente gratuira y a través de este[ formulario para que os concedan repositorios privados vinculados](https://education.github.com/discount_requests/new) a vuestra organización. Solicitad tantos como veáis necesarios.
 
 Mantened los repositorios en privado hasta el día que nos presentéis la versión final de ellos.
 
