@@ -45,7 +45,7 @@
   testimonial: "Para lo que queráis"
   image: img/embajadores/javacasm.jpg
   contacts:
-    - name: Web: elcacharreo.com
+    - name: "Web: elcacharreo.com"
       link: "http://www.elcacharreo.com"
 
     - name: Correo
