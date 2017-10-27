@@ -24,6 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: _impaciencia_
 github_username:  impaciencia
 markdown: kramdown
+highlighter: rouge
 theme: minima
 plugins:
 - jekyll-feed
