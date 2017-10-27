@@ -16,6 +16,44 @@
     - name: "Github"
       link: "https://github.com/ajmatas"
 
+- name: "Marta Verde"
+  ciudad: Madrid
+  short-bio: "Artista visual y programadora creativa gallega afincada en Madrid, licenciada en Bellas Artes y especializada en Media arts y Tecnologías Digitales aplicadas a la Escena por la UPF. Programa fabAcademy de especialización en fabricación digital de la Fab Foundation (MIT’s Center for Bits & Atoms). Desarrolla visuales, gráficos interactivos y generativos, dispositivos electrónicos personalizados, wearables e instalaciones interactivas tanto para músicos como para compañías de teatro y danza, artistas, diseñadores, instituciones, publicidad o estudios de iluminación; siempre buscando la fusión entre tecnología y creatividad."
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/Mverde.jpg
+  contacts:
+    - name: Web
+      link: "http://www.martaverde.net"
+
+    - name: Correo
+      link: "mailto:info@martaverde.net"
+
+    - name: "Twitter"
+      link: "http://twitter.com/greenmartinha"
+
+- name: "Marcos Ruiz Soler"
+  ciudad: Málaga
+  short-bio: "Profesor Titular de Metodología de las ciencias del comportamiento. Facultad de Psicología. Dpto. de Psicobiología y Metodología de las CC. del comportamiento. Puesto que mi campo de especialización es la metodología experimental, puedo asesorar en el diseño de experimentos y el análisis estadístico. Asimismo puedo orientar en la evaluación de aspectos éticos de la investigación."
+  image: img/embajadores/MRS.jpg
+  contacts:
+    - name: Correo
+      link: "mailto:marcos.ruiz@uma.es"
+
+- name: "José Antonio Vacas Martinez"
+  ciudad: Granada
+  short-bio: "Soy Licenciado en Ciencias Físicas, con especialidad en Física Teórica, doctorado en Física Computacional por el Instituto Carlos I de la Universidad de Granada. Actualmente me dedico a tiempo completo a la formación, especialmente del profesorado, impartiendo cursos presenciales de Programación, Robótica, y Diseño e impresión 3D para IFES, Centros de Profesorado (CEP) de Jaén (Jaén, Linares, Úbeda y Orcera), Granada, Córdoba y Antequera."
+  testimonial: "Para lo que queráis"
+  image: img/embajadores/javacasm.jpg
+  contacts:
+    - name: Web: elcacharreo.com
+      link: "http://www.elcacharreo.com"
+
+    - name: Correo
+      link: "mailto:info@elcacharreo.com"
+
+    - name: "Twitter"
+      link: "https://twitter.com/javacasm"
+
 - name: "Raúl Montañez"
   ciudad: Málaga
   short-bio: "Profesor del Departamento de Biología Molecular y Bioquímica de la UMA. Conferenciante en el ciclo de charlas Impaciencia. En sus investigaciones intenta comprender el comportamiento de los sistemas biológicos por medio de la modelización y experimentación"

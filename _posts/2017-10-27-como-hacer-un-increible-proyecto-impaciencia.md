@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo hacer un increíble proyecto Impaciencia?
+title: ¿Cómo hacer un proyecto Impaciencia increíble?
 date: 2017-11-27 18:00:53 Z
 author: "impaciente-001"
 categories:
