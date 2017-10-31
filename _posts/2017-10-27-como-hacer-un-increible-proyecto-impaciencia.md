@@ -90,7 +90,7 @@ A los proyectos en Git; es decir, a las carpetas con todos los archivos a contro
 <div class="piefoto"> Un esquema de como se pueden utilizar distintos repositorios para organizar vuestra investigación </div>
 {:/nomarkdown}
 
-Si no sabes cómo usar Git o Github lo mejor es que busques a algún miembro que sepa para el equipo aunque también puedes esperar un poco a que publiquemos nuestro tutorial, o también puedes aventurarte e intentar aprenderlo por ti mismo ([te recomendamos esta página](https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop)). Aquí continuaremos explicando como se pueden organizar los proyectos para presentarlos a Impaciencia, si no te queda claro aún que son los repositorios imagínate que son carpetas con archivos.
+Si no sabes cómo usar Git o Github lo mejor es que busques a algún miembro que sepa para o también puedes aventurarte e intentar aprenderlo por ti mismo ([te recomendamos esta página](https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop)). Aquí continuaremos explicando como se pueden organizar los proyectos para presentarlos a Impaciencia, si no te queda claro aún que son los repositorios imagínate que son carpetas con archivos.
 
 ### El repositorio teórico
 
