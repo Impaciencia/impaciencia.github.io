@@ -19,7 +19,7 @@ layout: post
 
 {::nomarkdown}
 <img src="{{ site.baseurl }}/img/conferencias/NAND-gate.png">
-<div class="piefoto"> Las llaves lógicas pueden ser codificadas en circuitos genéticos </div>
+<div class="piefoto"> Las puertas lógicas pueden ser codificadas en circuitos genéticos </div>
 {:/nomarkdown}
 
 **Abstract**:
