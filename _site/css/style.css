@@ -703,12 +703,43 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     clear: both;
 }
 
+#post h2 {
+    width: 80%;
+	font-size: 25px;
+    float: right;
+    clear: both;
+}
+
+#post h3 {
+    width: 80%;
+	font-size: 22px;
+    float: right;
+    clear: both;
+}
+
+#post h4 {
+    width: 80%;
+	font-size: 20px;
+    float: right;
+    clear: both;
+}
+
 #post img {
     width: 80%;
     float: left;
     max-width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+#post ul {
+	width: 80%;
+    float: right;
+    clear: both;
+    text-align: left;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 35px;
 }
 
 #post p {
@@ -719,6 +750,15 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin: 0;
     margin-top: 15px;
     margin-bottom: 35px;
+}
+
+.highlighter-rouge {
+	width: 80%;
+	float: left;
+	max-width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #888;
 }
 
 .datapost {
@@ -1126,7 +1166,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-right: 20px;
     text-align: left;
     float: left;
-    /* clear: both; */
+    clear: both;
 }
 
 .contenidocomunidad .boton a {
@@ -1163,10 +1203,10 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 }
 
 .cajaembajador {
-    width: 30%;
+    width: 33.33%;
     float: left;
     margin-bottom: 100px;
-    margin-right: 3%;
+    padding-right: 3%;
 }
 
 .cajaembajador p {
@@ -1182,7 +1222,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: block;
     margin-bottom: 25px;
 }
@@ -1509,7 +1549,7 @@ h1 {
 /********* RESPONSIVE COMUNIDAD *********/
 
 .cajaembajador {
-    width: 47%;
+    width: 50%;
 }
 
 

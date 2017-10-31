@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo hacer un proyecto Impaciencia increíble?
-date: 2017-11-27 18:00:53 Z
+date: 2017-10-27 18:00:53 Z
 author: "impaciente-001"
 categories:
 - impaciencia
@@ -9,9 +9,17 @@ categories:
 thumbnail: /img/blog/rocket_launch.jpg
 layout: post
 ---
+
+* TOC
+{:toc}
+
 Venga el primer paso es buscar a amigos e inscribíos en un equipo. Lo ideal es que en estos se junten estos perfiles:
 
-![](/img/equipos/sin.jpg)
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/equipos/sin.jpg">
+<div class="piefoto"> Cuanto más diversos vuestros perfiles más original podrá ser vuestra investigación </div>
+{:/nomarkdown}
+
 
 - **Estudiantes de humanidades o ciencias** que planteen preguntas y formas de responderlas. Estas formas pueden ser por ejemplo un estudio o experimento.
 - **Estudiantes de ingenierías** que puedan prestar apoyo técnico al análisis de los datos, la construcción de intrumental y a la comunicación.
@@ -24,6 +32,12 @@ Pero oye, esto son solo perfiles ejemplo que la organización ha pensado. En la 
 Lo primero que tendréis que hacer es elegir un nombre chulo e [incribiros en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSdblWB1HK-2-p4KuRDd1DRa_NgdwSXpf2lREJjGGd-2gGNVkw/viewform?usp=send_form). Y ahora sí, a remangarse que vamos a ponernos manos a la obra.
 
 Las investigaciones que buscamos en Impaciencia tienen que poder ser replicables, es decir, cualquier persona que repita exactamente lo mismo que vosotros (si es que puede) tiene que encontrar las mismas conclusiones o resultados. Esto es crucial si queremos que nuestros proyectos puedan ser utilizados por otras personas o que estas sean el punto de inicio de una exploración más profunda sobre el tema.
+
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/phd010708s.gif">
+<div class="piefoto"> El desorden en la investigación no se lleva muy bien con la reproducibilidad, oh, sorpresa :O </div>
+{:/nomarkdown}
+
 
 Es sorprendente pero estamos teniendo actualmente una crisis gordísisisisisisima de reproducibilidad en investigación ([ejem](https://www.nature.com/news/reproducibility-1.17552), [ejem](http://science.sciencemag.org/content/349/6251/aac4716), [ejem ejem](http://www.nature.com/nature/journal/v483/n7391/full/483531a.html)) y hay muchos investigadores e [iniciativas](https://osf.io/) intentando encontrar una solución a esto. No nos gustaría que esto pasará a nuestros increibles proyectos después de dedicarle tanto esfuerzo. Por esto vamos a utilizar una metodología de documentación y trabajo en equipo basado en el control de versiones y repositorios que garantice la máxima reproducibilidad posible.
 
@@ -47,13 +61,19 @@ Vale, esto de forma abstracta y teórica suena muy bien, pero ¿cómo llevarlo a
 
 Cuando pensamos en una investigación lo más normal es que nos la imaginemos de forma lineal. Definimos muy bien nuestro diseño de estudio, lo que vamos a necesitar y qué clase de resultados vamos a obtener. La realidad es mucho más compleja, sucia e interesante. **A medida que vamos avanzando y leyendo nos podemos dar cuenta de que quizás el diseño inicial no es correcto del todo o puede que los datos que obtenemos en nuestro primer experimento no son los que esperábamos**. La verdad es que la investigación es tan interesante y adictiva porque precisamente no podemos predecir qué vamos a obtener y por esto necesitamos un sistema que vaya adaptándose a estos cambios.
 
-![Esto, desgraciadamente, nos ha pasado demasiadas veces a todos U.u](/img/blog/archivos_caos.png)
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/archivos_caos.png">
+<div class="piefoto"> ¡Qué pesadilla! Esto, desgraciadamente, nos ha pasado demasiadas veces a todos U.u </div>
+{:/nomarkdown}
 
 Además a todo esto hay que sumarle que las investigaciones se realizan normalmente en grupo y la organización entre todos puede llegar a ser un caos. **La investigación ya es lo suficientemente compleja para que encima la dificultemos aún más no utilizando una forma de trabajar en grupo eficiente**. ¿Qué ocurre si las herramientas para facilitar esto ya están creadas y se están usando con éxito en otros campos? ¿Qué pasa si encima decimos que las herramientas son gratuitas? ¿Sería interesante usarlas, verdad?
 
 El desarrollo de software ya se encontró este mismo problema hace mucho tiempo y lo resolvió desarrollando un programa que controla todos los archivos de un proyecto. **Este sistema vigila todos los cambios que cualquier usuario hace sobre cualquier archivo, ya sea un documento de texto, una tabla con datos o un script de programación. Además estos cambios pueden ser reversibles en cualquier momento por lo que la información no se pierde**. Y por si esto fuera poco nos permite de una forma muy fácil copiar y modificar cualquier proyecto público. Esto se conoce como control de versiones y uno de los programas más famosos que hace esto es Git.
 
-![Visualización de las personas que modifican los archivos de un programa a través de git](/img/blog/gource_git_visualization.gif)
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/gource_git_visualization.gif">
+<div class="piefoto"> Visualización de las personas que modifican los archivos de un programa a través de git </div>
+{:/nomarkdown}
 
 Debido a que Git se originó en el desarrollo de aplicaciones, quizás un primer vistazo a la web solo te devuelva resultados relacionados con esto. Pero no te asustes, cada vez más se está utilizando Git con los archivos de investigación e incluso los proyectos pueden recibir un [DOI para que sean publicados en revistas acádemicas](https://zenodo.org/). Esto último es muy interesante pues cada vez más revistas están valorando que, tanto los datos como el código que ha llevado a unos resultados, esté disponible de forma online.
 
@@ -69,7 +89,10 @@ A los proyectos en Git; es decir, a las carpetas con todos los archivos a contro
 - **Uno o Varios repositorios técnicos**
 - **Uno o varios repositorios comunicativos**
 
-![](/img/blog/guia_proyectos.png)
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/guia_proyectos.png">
+<div class="piefoto"> Un esquema de como se pueden utilizar distintos repositorios para organizar vuestra investigación </div>
+{:/nomarkdown}
 
 Si no sabes cómo usar Git o Github lo mejor es que busques a algún miembro que sepa para el equipo aunque también puedes esperar un poco a que publiquemos nuestro tutorial, o también puedes aventurarte e intentar aprenderlo por ti mismo ([te recomendamos esta página](https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop)). Aquí continuaremos explicando como se pueden organizar los proyectos para presentarlos a Impaciencia, si no te queda claro aún que son los repositorios imagínate que son carpetas con archivos.
 
@@ -145,6 +168,11 @@ El utilizar un repositorio para almacenar este instrumento hace que si en un fut
 
 #### Repositorio ejemplo de análisis de las fotos.
 
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/phd031214s.gif">
+<div class="piefoto"> Intentemos evitar justamente esto </div>
+{:/nomarkdown}
+
 Una vez que tenemos las fotos hay que sacar la medición; es decir, necesitamos obtener un número. **Esto se puede realizar a mano pero también se podría automatizar con un pequeño programa en Python que le aplique un filtro a la imagen y sea capaz de extraer de ahí cuánto ha crecido esa planta**. Nuevamente esto nos regala más tiempo que gastar haciendo cosas más interesantes, aumenta la reproducibilidad y es escalable. Esto último significa que al programa le da lo mismo medir 10 que 10000 plantas, en cambio a nosotros sí que suele importarnos un poquito.
 
 Este repositorio puede tener la siguiente estructura:
@@ -171,6 +199,7 @@ Finalmente nos queda una parte muy importante que hacer. Por muy increibles que 
 Actualmente es posible visualizar o escuchar los datos de maneras que nos resulten más intuitivos o construir páginas webs que nos permitan interactuar con la información (como en las explicaciones explorables). Incluso un pequeño videojuego puede servir para divulgar la información. Estamos muy interesados en ver qué nuevas formas de comunicar utilizáis.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ndLkP-bNL1s" frameborder="0" allowfullscreen></iframe>
+<div class="piefoto"> Mediante la sonificación de datos podemos convertir valores numéricos en sonidos. ¿Esto será útil en tu investigación? </div>
 
 También algo clásico como un artículo divulgativo o una práctica puede funcionar bien. Además es posible también que los resultados den lugar a algunas obras artísticas que podrían englobarse dentro del código creativo con lo que su ejecución quedaría contenida en un repositorio.
 
@@ -194,4 +223,16 @@ Dejemos de lado las restricciones que nos ~~han impuesto~~ hemos impuesto y enco
 
 **¡A investigar señor@s!**
 
-![](/img/blog/madpersonlaughting.gif)
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/madpersonlaughting.gif">
+<div class="piefoto"> Muahahahhaha! </div>
+{:/nomarkdown}
+
+## Anexo: Referencias Interesantes
+
+- [Preservar Datos de Investigación](https://programminghistorian.org/es/lecciones/preservar-datos-de-investigacion)
+- [Introducción al control de versiones con Github Desktop](https://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop)
+- [Ten Simple Rules for Taking Advantage of Git and GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947)
+- [We need a github for academic research](http://www.slate.com/articles/technology/future_tense/2017/04/we_need_a_github_for_academic_research.html)
+- [A quick guide to organizing Computational Biology Projects, Aunque vale para cualquier disciplina :) ](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
+- [A Reproducible Workflow por Ignasi Bartomeus y Francisco Rodríguez-Sánchez](https://www.youtube.com/watch?v=s3JldKoA0zw)
