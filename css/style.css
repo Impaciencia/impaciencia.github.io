@@ -1126,7 +1126,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-right: 20px;
     text-align: left;
     float: left;
-    /* clear: both; */
+    clear: both;
 }
 
 .contenidocomunidad .boton a {
@@ -1163,10 +1163,10 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
 }
 
 .cajaembajador {
-    width: 30%;
+    width: 33.33%;
     float: left;
     margin-bottom: 100px;
-    margin-right: 3%;
+    padding-right: 3%;
 }
 
 .cajaembajador p {
@@ -1182,7 +1182,7 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: block;
     margin-bottom: 25px;
 }
@@ -1509,7 +1509,7 @@ h1 {
 /********* RESPONSIVE COMUNIDAD *********/
 
 .cajaembajador {
-    width: 47%;
+    width: 50%;
 }
 
 
