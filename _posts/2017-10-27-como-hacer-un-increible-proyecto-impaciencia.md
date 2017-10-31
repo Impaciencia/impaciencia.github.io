@@ -39,7 +39,7 @@ Es sorprendente pero estamos teniendo actualmente una crisis gordísisisisisisim
 
 Ayuda de rápideo:
 > - **Control de Versiones**: Llevar la cuenta de todos los cambios que tienen vuestros archivos, desde documentos de texto hasta tablas de datos o scripts.
-> - **Documentación**: Escribir que es lo que se ha hecho en una forma que cualquier persona
+> - **Documentación**: Escribir que es lo que se ha hecho en una forma que cualquier persona pueda entender que es lo que se ha hecho. 
 
 Ey Ey, oye colega a mí esto nunca me lo han enseñado en clase, yo me piro de aquí. Espera, ya verás como es muy fácil y te resultará muy útil para cualquier tipo de proyecto que lleves a cabo, pero primero empecemos por la estructura ejemplo de un proyecto de investigación Impaciencia.
 
