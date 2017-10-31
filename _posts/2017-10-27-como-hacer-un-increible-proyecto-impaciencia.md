@@ -9,10 +9,6 @@ categories:
 thumbnail: /img/blog/rocket_launch.jpg
 layout: post
 ---
-
-* TOC
-{:toc}
-
 Venga el primer paso es buscar a amigos e inscribíos en un equipo. Lo ideal es que en estos se junten estos perfiles:
 
 {::nomarkdown}
