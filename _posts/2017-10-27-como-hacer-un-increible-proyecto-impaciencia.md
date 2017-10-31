@@ -201,7 +201,7 @@ Finalmente nos queda una parte muy importante que hacer. Por muy increibles que 
 
 Actualmente es posible visualizar o escuchar los datos de maneras que nos resulten más intuitivos o construir páginas webs que nos permitan interactuar con la información (como en las explicaciones explorables). Incluso un pequeño videojuego puede servir para divulgar la información. Estamos muy interesados en ver qué nuevas formas de comunicar utilizáis.
 
-<iframe width="860" height="315" src="https://www.youtube.com/embed/ndLkP-bNL1s" frameborder="0" allowfullscreen></iframe>
+<iframe width="551" height="315" src="https://www.youtube.com/embed/ndLkP-bNL1s" frameborder="0" allowfullscreen></iframe>
 <div class="piefoto"> Mediante la sonificación de datos podemos convertir valores numéricos en sonidos. ¿Esto será útil en tu investigación? </div>
 
 También algo clásico como un artículo divulgativo o una práctica puede funcionar bien. Además es posible también que los resultados den lugar a algunas obras artísticas que podrían englobarse dentro del código creativo con lo que su ejecución quedaría contenida en un repositorio.
