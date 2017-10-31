@@ -39,7 +39,7 @@ Es sorprendente pero estamos teniendo actualmente una crisis gordísisisisisisim
 
 Ayuda de rápideo:
 > - **Control de Versiones**: Llevar la cuenta de todos los cambios que tienen vuestros archivos, desde documentos de texto hasta tablas de datos o scripts.
-> - **Documentación**: Escribir que es lo que se ha hecho en una forma que cualquier persona pueda entender que es lo que se ha hecho. 
+> - **Documentación**: Escribir que es lo que se ha hecho en una forma que cualquier persona pueda entender que es lo que se ha hecho.
 
 Ey Ey, oye colega a mí esto nunca me lo han enseñado en clase, yo me piro de aquí. Espera, ya verás como es muy fácil y te resultará muy útil para cualquier tipo de proyecto que lleves a cabo, pero primero empecemos por la estructura ejemplo de un proyecto de investigación Impaciencia.
 
@@ -214,7 +214,7 @@ También algo clásico como un artículo divulgativo o una práctica puede funci
 
 ## La organización de los repositorios
 
-Estos repositorios deberán estar todos asociados a una *organizción github* que lleve el nombre de vuestro equipo. Aquí podréis haceros una: [Github Organization](https://github.com/organizations/new). Elejid el plan free, en principio. Debido a que sois estudiantes Github os concederá una cuenta premium totalmente gratuira y a través de este[ formulario para que os concedan repositorios privados vinculados](https://education.github.com/discount_requests/new) a vuestra organización. Solicitad tantos como veáis necesarios.
+Estos repositorios deberán estar todos asociados a una *organizción github* que lleve el nombre de vuestro equipo. Aquí podréis haceros una: [Github Organization](https://github.com/organizations/new). Elejid el plan free, en principio. Debido a que sois estudiantes Github os concederá una cuenta premium totalmente gratuita. Entrad en este [formulario para que os concedan repositorios privados vinculados](https://education.github.com/discount_requests/new) a vuestra organización. Solicitad tantos como veáis necesarios.
 
 {::nomarkdown}
 <img src="{{ site.baseurl }}/img/blog/github-organization.png">
@@ -229,7 +229,7 @@ Lo ideal sería que vuestra organización en github también tuviera una página
 
 Sabemos que pedimos quizás muchas cosas que no nos han enseñado en la carrera pero es justamente por eso por lo que lo hacemos. La investigación está cambiando día a día y a veces las metodologías que nos enseñan en la carrera están desactualizadas y son poco eficientes. Este proyecto más que ser un concurso con un premio monetario está pensado para que aprendamos los unos de los otros a utilizar las herramientas que nos permitan conocer el mundo de una manera eficiente y segura.
 
-**Los proyectos Impaciencia no son solo para desarrolladores, ni solo para científicos, ni gente de humanidades, ni solo para comunicadores o artistas. Estos proyectos son para todos, utilizar lo digital; es decir los repositorios, no lo dirige hacia una disciplina u otra**. Tú mismo nos estás leyendo a través de un medio digital com lo es una pantalla ¿acaso lo que esté en libros es solo para gente de letras y lo que esté en un ordenador es solo para gente de ingenierías? Claramente no.
+**Los proyectos Impaciencia no son solo para desarrolladores, ni solo para científicos, ni gente de humanidades, ni solo para comunicadores o artistas. Estos proyectos son para todos, utilizar lo digital; es decir los repositorios, no lo dirige hacia una disciplina u otra**. Tú mismo nos estás leyendo a través de un medio digital ¿acaso lo que esté en libros es solo para gente de letras y lo que esté en un ordenador es solo para gente de ingenierías? Claramente no.
 
 Dejemos de lado las restricciones que nos ~~han impuesto~~ hemos impuesto y encontremos en la colaboración el medio principal para responder las preguntas que nos hacemos sobre el mundo.
 
