@@ -150,6 +150,11 @@ Nuestro miembro del equipo que estudia ingeniería dice que sí, que con un apar
 
 **La idea es diseñar un aparato que tome fotografías de las plantas cada tiempo que nosotros queramos**. Esto se puede hacer con una webcam, una raspberry Pi que esté conectada y una estructura que permita ponerla en la mejor posición para fotografiar a nuestras plantas.
 
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/raspberryPi-camera.jpg">
+<div class="piefoto"> Con una raspberry Pi y su cámara ya tendréis un dispositivo de captación chulo y barato </div>
+{:/nomarkdown}
+
 El código puede ser un pequeño programa de Linux (script de bash) que tome fotografías cada día y la estructura que coge la cámara se ha diseñado con un programa de edición 3D (almacenado en formato CAD) e impreso con una impresora 3D. Si ponemos todos estos archivos en un repositorio, cualquier persona podrá construir este mismo instrumento. Un ejemplo de cómo quedaría el repositorio podría ser:
 
 ```
@@ -196,18 +201,25 @@ Estos son solo dos ejemplos muy generales para que os hagáis una idea de cómo 
 
 Finalmente nos queda una parte muy importante que hacer. Por muy increibles que sean nuestros resultados si no son comunicados correctamente pasarán desapercibidos. Necesitamos realizar ese último esfuerzo e intentar que quede lo más claro posible lo que queremos comunicar. Aquí los estudiantes de comunicación tienen mucho que decir pues también se puede innovar en la forma de comunicar.
 
+[Ejemplo de visualización interactiva con los diálogos de los personajes de Los Miserables](https://codepen.io/nfnm/pen/VLRzpa?q=les%20miserables&order=popularity&depth=everything&show_forks=false)
+
 Actualmente es posible visualizar o escuchar los datos de maneras que nos resulten más intuitivos o construir páginas webs que nos permitan interactuar con la información (como en las explicaciones explorables). Incluso un pequeño videojuego puede servir para divulgar la información. Estamos muy interesados en ver qué nuevas formas de comunicar utilizáis.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ndLkP-bNL1s" frameborder="0" allowfullscreen></iframe>
+<iframe width="860" height="315" src="https://www.youtube.com/embed/ndLkP-bNL1s" frameborder="0" allowfullscreen></iframe>
 <div class="piefoto"> Mediante la sonificación de datos podemos convertir valores numéricos en sonidos. ¿Esto será útil en tu investigación? </div>
 
 También algo clásico como un artículo divulgativo o una práctica puede funcionar bien. Además es posible también que los resultados den lugar a algunas obras artísticas que podrían englobarse dentro del código creativo con lo que su ejecución quedaría contenida en un repositorio.
 
 **NOTA**: Es posible que algunos formatos de comunicación no se adapten a un repositorio, por ejemplo: un vídeo subido a youtube o actividad de divulgación presencial o en redes sociales. En estos casos se podría crear un repositorio con un README.md que describa la estrategia de comunicación seguida y enlace al vídeo, al guión, etc. Ante la duda consultad con la organización.
 
-## La organización de los repositorios.
+## La organización de los repositorios
 
 Estos repositorios deberán estar todos asociados a una *organizción github* que lleve el nombre de vuestro equipo. Aquí podréis haceros una: [Github Organization](https://github.com/organizations/new). Elejid el plan free, en principio. Debido a que sois estudiantes Github os concederá una cuenta premium totalmente gratuira y a través de este[ formulario para que os concedan repositorios privados vinculados](https://education.github.com/discount_requests/new) a vuestra organización. Solicitad tantos como veáis necesarios.
+
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/blog/github-organization.png">
+<div class="piefoto"> Un ejemplo de como quedará la página con vuestros repositorios en Github </div>
+{:/nomarkdown}
 
 Mantened los repositorios en privado hasta el día que nos presentéis la versión final de ellos.
 
