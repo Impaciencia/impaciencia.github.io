@@ -27,7 +27,7 @@ Pero oye, esto son solo perfiles ejemplo que la organización ha pensado. En la 
 
 Lo primero que tendréis que hacer es elegir un nombre chulo e [incribiros en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSdblWB1HK-2-p4KuRDd1DRa_NgdwSXpf2lREJjGGd-2gGNVkw/viewform?usp=send_form). Y ahora sí, a remangarse que vamos a ponernos manos a la obra.
 
-Las investigaciones que buscamos en Impaciencia tienen que poder ser replicables, es decir, cualquier persona que repita exactamente lo mismo que vosotros (si es que puede) tiene que encontrar las mismas conclusiones o resultados. Esto es crucial si queremos que nuestros proyectos puedan ser utilizados por otras personas o que estas sean el punto de inicio de una exploración más profunda sobre el tema.
+Las investigaciones que buscamos en Impaciencia tienen que poder ser replicables, es decir, **cualquier persona que repita exactamente lo mismo que vosotros (si es que puede) tiene que encontrar las mismas conclusiones o resultados**. Esto es crucial si queremos que nuestros proyectos puedan ser utilizados por otras personas o que estas sean el punto de inicio de una exploración más profunda sobre el tema.
 
 {::nomarkdown}
 <img src="{{ site.baseurl }}/img/blog/phd010708s.gif">
