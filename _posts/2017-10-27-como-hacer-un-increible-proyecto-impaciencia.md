@@ -37,6 +37,10 @@ Las investigaciones que buscamos en Impaciencia tienen que poder ser replicables
 
 Es sorprendente pero estamos teniendo actualmente una crisis gordísisisisisisima de reproducibilidad en investigación ([ejem](https://www.nature.com/news/reproducibility-1.17552), [ejem](http://science.sciencemag.org/content/349/6251/aac4716), [ejem ejem](http://www.nature.com/nature/journal/v483/n7391/full/483531a.html)) y hay muchos investigadores e [iniciativas](https://osf.io/) intentando encontrar una solución a esto. No nos gustaría que esto pasará a nuestros increibles proyectos después de dedicarle tanto esfuerzo. Por esto vamos a utilizar una metodología de documentación y trabajo en equipo basado en el control de versiones y repositorios que garantice la máxima reproducibilidad posible.
 
+Ayuda de rápideo:
+> - **Control de Versiones**: Llevar la cuenta de todos los cambios que tienen vuestros archivos, desde documentos de texto hasta tablas de datos o scripts.
+> - **Documentación**: Escribir que es lo que se ha hecho en una forma que cualquier persona
+
 Ey Ey, oye colega a mí esto nunca me lo han enseñado en clase, yo me piro de aquí. Espera, ya verás como es muy fácil y te resultará muy útil para cualquier tipo de proyecto que lleves a cabo, pero primero empecemos por la estructura ejemplo de un proyecto de investigación Impaciencia.
 
 ## La Estructura de los proyectos
