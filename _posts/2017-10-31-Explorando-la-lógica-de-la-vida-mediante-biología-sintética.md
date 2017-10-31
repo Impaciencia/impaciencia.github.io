@@ -12,15 +12,15 @@ thumbnail: /img/conferencias/NAND-gate-square.jpg
 layout: post
 ---
 
-![](/img/conferencias/NAND-gate.png)
+- **Título**: Explorando la lógica de la vida mediante biología sintética.
+- **Fecha y Hora**: 7 de Noviembre, 19:00h
+- **Lugar**: Universidad de Málaga
+- **Ponente**: Raúl Montañez
 
-**Título**: Explorando la lógica de la vida mediante biología sintética.
-
-**Fecha y Hora**: 7 de Noviembre, 19:00h
-
-**Lugar**: Universidad de Málaga
-
-**Ponente**: Raúl Montañez
+{::nomarkdown}
+<img src="{{ site.baseurl }}/img/conferencias/NAND-gate.png">
+<div class="piefoto"> Las llaves lógicas pueden ser codificadas en circuitos genéticos </div>
+{:/nomarkdown}
 
 **Abstract**:
 Los seres vivos, desde las bacterias a los organismos multicelulares más masivos, han de ser capaces de responder a las variaciones del entorno. La vida, en si misma, se perpetúa gracias a haber desarrollado una multiplicidad de mecanismos de detección y respuesta a los que la evolución ha elevado hasta límites sorprendentes. Pero, *¿en qué se basan estas respuestas?* *¿podría existir un paralelismo entre las estructuras de computación lógica que diseñamos para nuestros ordenadores y las estructuras de control de los organismos vivos?*
