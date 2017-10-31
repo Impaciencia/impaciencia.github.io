@@ -1165,7 +1165,6 @@ box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.51);
     margin-right: 20px;
     text-align: left;
     float: left;
-	display: grid;
     /* clear: both; */
 }
 
