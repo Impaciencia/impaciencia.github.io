@@ -77,7 +77,7 @@ También **todos los proyectos con sus archivos pueden estar sincronizados en un
 
 Quizás nos estamos pasando pero podemos decir que usar Git y páginas como Github se está convirtiendo en una pieza central en el desarrollo de cualquier proyecto digital, incluidas las investigaciones.
 
-## Los repostorios en investigación
+## ¿ Cómo usar los repostorios en una investigación Impaciencia?
 
 A los proyectos en Git; es decir, a las carpetas con todos los archivos a controlar, se les llama repositorios y estos pueden contener carpetas y archivos (básicamente todo). En una investigación no existe una forma estándar de organizar los repositorios y se pueden muchos asociados, tantos como sean necesarios. No obstante, para simplificar las cosas, en Impaciencia os proponemos que los proyectos presentados estén compuestos por los siguientes:
 
