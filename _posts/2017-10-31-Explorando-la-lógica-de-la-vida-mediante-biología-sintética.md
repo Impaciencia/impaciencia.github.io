@@ -1,5 +1,5 @@
 ---
-title: "[ Conferencia ] 7 de noviembre, Explorando la lógica de la vida mediante biología sintética."
+title: "[Conferencia, 7 de Noviembre] Explorando la lógica de la vida mediante biología sintética."
 date: 2017-10-31 09:00:53 Z
 author: "impaciente-001"
 categories:
@@ -14,7 +14,7 @@ layout: post
 
 - **Título**: Explorando la lógica de la vida mediante biología sintética.
 - **Fecha y Hora**: 7 de Noviembre, 18:30h
-- **Lugar**: Salón de grados de la Facultad de Turismo de la Universidad de Málaga
+- **Lugar**: Aula de grados de la Facultad de Turismo de la Universidad de Málaga
 - **Ponente**: Raúl Montañez
 
 {::nomarkdown}
