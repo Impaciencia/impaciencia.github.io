@@ -16,7 +16,7 @@
 
 - name: "Anatomía de una croqueta"
   estudios: "Ingeniería de la salud (UMA), Biología (UMA) y 2x[ Química (UMA) ]"
-  short-bio: Plato principal: salteado de biología, medicina e informática.
+  short-bio: "Plato principal: salteado de biología, medicina e informática."
   image: img/equipos/croquetas.jpg
   contacts:
       - name: Github (Próximamente)
