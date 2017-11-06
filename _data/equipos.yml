@@ -3,6 +3,8 @@
   short-bio: Nuestro proyecto es una investigación sobre un problema social actual que se intentara remediar con herramientas informaticas
   image: img/equipos/sin.jpg
   contacts:
+      - name: Correo
+        link: ""
       - name: Github (Próximamente)
         link:
 
@@ -11,6 +13,8 @@
   short-bio: Consistirá en el estudio de la especialización del lenguaje en distintos perfiles de personas
   image: img/equipos/losgirasolesvidentes.jpg
   contacts:
+      - name: Correo
+        link: ""
       - name: Github (Próximamente)
         link:
 
@@ -19,6 +23,8 @@
   short-bio: "Plato principal: salteado de biología, medicina e informática."
   image: img/equipos/croquetas.jpg
   contacts:
+      - name: Correo
+        link: ""
       - name: Github (Próximamente)
         link:
 
