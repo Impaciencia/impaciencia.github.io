@@ -4,7 +4,7 @@
   image: img/equipos/sin.jpg
   contacts:
       - name: Correo
-        link: ""
+        link: "josecordoba1995@gmail.com"
       - name: Github (Próximamente)
         link:
 
@@ -14,7 +14,7 @@
   image: img/equipos/losgirasolesvidentes.jpg
   contacts:
       - name: Correo
-        link: ""
+        link: "kener18@gmail.com"
       - name: Github (Próximamente)
         link:
 
@@ -24,17 +24,37 @@
   image: img/equipos/croquetas.jpg
   contacts:
       - name: Correo
-        link: ""
+        link: "makishinake@hotmail.com"
       - name: Github (Próximamente)
         link:
 
-- name: "Anatomía de una croqueta"
-  estudios: "Ingeniería de la salud (UMA), Biología (UMA) y 2x[ Química (UMA) ]"
-  short-bio: "Plato principal: salteado de biología, medicina e informática."
-  image: img/equipos/croquetas.jpg
+- name: "La Croqueta Educativa"
+  estudios: "Educación Primaria (UMA), Traducción e Interpretación (UMA) y Comunicación Audiovisual (UMA) "
+  short-bio: "Proyecto que mezcla la tecnología y la educación para mejorar el aprendizaje."
+  image: img/equipos/croqueta_educativa.jpeg
   contacts:
       - name: Correo
-        link: ""
+        link: "miguelfortes@uma.es"
+      - name: Github (Próximamente)
+        link: https://github.com/Lacroquetaeducativa
+
+- name: "Moderdonia"
+  estudios: "Enfermería (UMA), Mtr. in synthesis, catalysis and molecular design (URV), Finanzas y Contabilidad (UMA) y Mtr. en Bioquímica, Biología Molecular y Biomedicina (UC)"
+  short-bio: "Es un proyecto que tratará sobre la educación."
+  image: img/equipos/moderdonia.png
+  contacts:
+      - name: Correo
+        link: "moderdoniacuarteto@gmail.com"
+      - name: Github (Próximamente)
+        link:
+
+- name: "The Open Bacteria Project"
+  estudios: "Mtr. en Matemáticas (UGR), Mtr. en Física y Matemáticas (UGR), 2x[ Ing. Informática (UGR) ], Biología (UGR), Mtr. Ciencia de Datos e Ingeniería de Computadores (UGR) y 2x[ Química (UMA) ]"
+  short-bio: "Plato principal: salteado de biología, medicina e informática."
+  image: img/equipos/TOB.png
+  contacts:
+      - name: Correo
+        link: "jesusbuenourbano@gmail.com"
       - name: Github (Próximamente)
         link:
 
