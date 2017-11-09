@@ -18,7 +18,7 @@
 
 - name: "Marta Verde"
   ciudad: Madrid
-  short-bio: "Artista visual y programadora creativa gallega afincada en Madrid, licenciada en Bellas Artes y especializada en Media arts y Tecnologías Digitales aplicadas a la Escena por la UPF. Programa fabAcademy de especialización en fabricación digital de la Fab Foundation (MIT’s Center for Bits & Atoms). Desarrolla visuales, gráficos interactivos y generativos, dispositivos electrónicos personalizados, wearables e instalaciones interactivas tanto para músicos como para compañías de teatro y danza, artistas, diseñadores, instituciones, publicidad o estudios de iluminación; siempre buscando la fusión entre tecnología y creatividad."
+  short-bio: "Artista visual y programadora creativa gallega afincada en Madrid. Desarrolla visuales, gráficos interactivos y generativos, dispositivos electrónicos personalizados, wearables e instalaciones interactivas tanto para músicos como para compañías de teatro y danza, artistas, diseñadores, instituciones, publicidad o estudios de iluminación; siempre buscando la fusión entre tecnología y creatividad."
   testimonial: "Para lo que queráis"
   image: img/embajadores/Mverde.jpg
   contacts:
