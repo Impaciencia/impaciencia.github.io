@@ -19,20 +19,6 @@
   contact: impaciencia.org
   contactlink: http://www.impaciencia.org
 
-- date: 2017-11-14 18:30:00 Z
-  description: "**Charla informativa del concurso Impaciencia en Jaén**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
-  people: Organización Impaciencia
-  place: UCO. Pronto más información.
-  contact: impaciencia.org
-  contactlink: http://www.impaciencia.org
-
-- date: 2017-11-14 19:00:00 Z
-  description: "**Conferencia sobre como utilizar git y github en investigación**. El control de versiones nos puede ayudar a trabajar de forma más ordenada y eficiente con nuestra investigación."
-  people: Carlos Vivar
-  place: UCO. Pronto más información
-  contact: impaciencia.org
-  contactlink: http://www.impaciencia.org
-
 - date: 2017-11-16 18:30:00 Z
   description: "**Charla informativa del concurso Impaciencia en Córdoba**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
@@ -58,6 +44,20 @@
   description: "**Conferencia sobre gestión de bibliografía y recursos digitales en investigación**. Aprende a encontrar la información que buscas."
   people: Pronto más información
   place: UHU. Pronto más información
+  contact: impaciencia.org
+  contactlink: http://www.impaciencia.org
+
+- date: 2017-11-22 18:30:00 Z
+  description: "**Charla informativa del concurso Impaciencia en Jaén**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
+  people: Organización Impaciencia
+  place: UCO. Pronto más información
+  contact: impaciencia.org
+  contactlink: http://www.impaciencia.org
+
+- date: 2017-11-22 19:15:00 Z
+  description: "**Conferencia sobre como utilizar git y github en investigación**. El control de versiones nos puede ayudar a trabajar de forma más ordenada y eficiente con nuestra investigación."
+  people: Carlos Vivar
+  place: UCO. Pronto más información
   contact: impaciencia.org
   contactlink: http://www.impaciencia.org
 
@@ -102,8 +102,8 @@
   contactlink: http://www.impaciencia.org
 
 - date: 2017-12-14 19:00:00 Z
-  description: "**Conferencia sobre python científico y como utilizar cuadernos jupyter para mejorar la reproducibilidad de las investigaciones**"
-  people: Carlos Vivar
+  description: "**Taller de gestión del trabajo en grupo en proyectos de Investigación** Aprenderemos como organizarnos para trabajar de forma eficiente en grupo dentro de proyectos de Investigación"
+  people: Pronto más información
   place: UMA. Pronto más información
   contact: impaciencia.org
   contactlink: http://www.impaciencia.org

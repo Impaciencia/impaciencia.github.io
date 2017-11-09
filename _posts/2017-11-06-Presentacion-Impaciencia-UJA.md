@@ -13,7 +13,7 @@ layout: post
 - **Hora**: 18:30
 
 {::nomarkdown}
-<img src="{{ site.baseurl }}/img/conferencias/UJA-A3">
+<img src="{{ site.baseurl }}/img/conferencias/UJA-A3.jpg">
 <div class="piefoto"> La presentación será en el Salón de Grados del edificio de Ingeniería y Tecnología </div>
 {:/nomarkdown}
 

@@ -28,6 +28,16 @@
       - name: Github (Próximamente)
         link:
 
+- name: "Anatomía de una croqueta"
+  estudios: "Ingeniería de la salud (UMA), Biología (UMA) y 2x[ Química (UMA) ]"
+  short-bio: "Plato principal: salteado de biología, medicina e informática."
+  image: img/equipos/croquetas.jpg
+  contacts:
+      - name: Correo
+        link: ""
+      - name: Github (Próximamente)
+        link:
+
 - name: "Este podría ser tu equipo ¿A qué esperas?"
   estudios: "No hay límites, cualquier carrera vale"
   short-bio: Podéis investigar sobre lo que queráis, cualquier tema es válido.
