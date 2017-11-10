@@ -1,6 +1,6 @@
 - name: "Antonio J. Matas"
   ciudad: Málaga
-  short-bio: "Profesor Ayudante Doctor del Departamento de Biología Vegetal de la UMA. En mi trabajo incorporo herramientas de análisis de imagen (ImageJ), R otro software libre para reducir el cuello de botella en el fenotipado de plantas, además de usar plataformas accesibles como Arduino y Raspberry Pi como recurso en la investigación y la docencia."
+  short-bio: "Profesor Ayudante Doctor del Departamento de Biología Vegetal de la UMA. En mi trabajo incorporo **herramientas de análisis de imagen (ImageJ), R otro software libre para reducir el cuello de botella en el fenotipado de plantas**, además de usar plataformas accesibles como **Arduino y Raspberry Pi** como recurso en la investigación y la docencia."
   testimonial: "Par"
   image: img/embajadores/AJMatas.jpg
   contacts:

@@ -22,7 +22,7 @@ permalink: /comunidad/
 
 	  <h4> {{ embajador.name }} </h4>
 
-	  <div class="categoria"> <p> {{ embajador.short-bio }} </p> </br> Info de contacto:
+	  <div class="categoria"> <p> {{ embajador.short-bio | markdownify }} </p> </br> Info de contacto:
 
 	  {% for contact in embajador.contacts %}
 

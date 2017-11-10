@@ -4,15 +4,17 @@ title: Calendario
 permalink: /calendario/
 ---
 
+{% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+{% capture eventtime %}{{ event.date | date: '%s' }}{% endcapture %}
 
 <div id="calendario">
 
 {% for event in site.data.calendario %}
 
-
 {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
-{% capture posttime %}{{ event.date | date: '%s' }}{% endcapture %}
-{% if posttime < nowunix %}
+{% capture eventtime %}{{ event.date | date: '%s' }}{% endcapture %}
+
+{% if eventtime > nowunix %}
 
 <div class="cajacalendario">
 
@@ -33,5 +35,37 @@ permalink: /calendario/
 {% endif %}
 
 {% endfor %}
+
+
+<h1> Eventos pasados </h1>
+
+{% for event in site.data.calendario %}
+
+{% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+{% capture eventtime %}{{ event.date | date: '%s' }}{% endcapture %}
+
+{% if eventtime < nowunix %}
+
+<div class="cajacalendario">
+
+	<div class="numerocalendario">
+		{{ event.date | date: "%d" |  replace:'0','O' }}
+	</div>
+
+	<h4> {{ event.date | date: "%B, %Y" }} </h4>
+
+  	<p> <a href="<a href="{{ event.contactlink }}"">{{ event.description | markdownify }}</a> </p>
+	<p>  </br></br>  Ponentes>>>> {{ event.people }} </p>
+	<p>  </br> Hora>>>> {{ event.date | date: "%H:%M"}} </p>
+	<p>  </br> Lugar>>>> {{ event.place }} </p> </br>
+	<div class="categoria"> <a href="{{ event.contactlink }}"> {{ event.contact }} </a> </div>
+
+</div>
+
+{% endif %}
+
+{% endfor %}
+
+
 
 </div>
