@@ -13,7 +13,7 @@ layout: post
 - **Título**: Búsquedas Bibliográficas Eficientes
 - **Fecha y Hora**: 21 de Noviembre, 18:30h
 - **Lugar**: Aula de grados de la Facultad de Humanidades de la Universidad de Huelva
-- **Ponente**: Pedro margolles
+- **Ponente**: Pedro Margolles
 
 {::nomarkdown}
 <img src="{{ site.baseurl }}img/conferencias/bibliograficas-eficientes.png">
