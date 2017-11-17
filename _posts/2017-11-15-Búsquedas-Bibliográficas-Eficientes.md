@@ -16,7 +16,7 @@ layout: post
 - **Ponente**: Pedro Margolles
 
 {::nomarkdown}
-<img src="{{ site.baseurl }}img/conferencias/bibliograficas-eficientes.png">
+<img src="{{ site.baseurl }}/img/conferencias/bibliograficas-eficientes.png">
 <div class="piefoto"> Con unos trucos muy básicos aumentaremos la eficiente al trabajar con artículos e información </div>
 {:/nomarkdown}
 
