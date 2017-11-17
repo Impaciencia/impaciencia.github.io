@@ -1,28 +1,27 @@
 ---
 title: "[Conferencia, 21 de Noviembre] Búsquedas Bibliográficas Eficientes."
-date: 2017-10-31 09:00:53 Z
+date: 2017-11-15 09:00:53 Z
 author: "impaciente-001"
 categories:
 - bibliografía
 - información
 - artículos
-thumbnail: /img/conferencias/NAND-gate-square.jpg
+thumbnail: /img/conferencias/bibliograficas-eficientes.png
 layout: post
 ---
 
-- **Título**: Explorando la lógica de la vida mediante biología sintética.
-- **Fecha y Hora**: 7 de Noviembre, 18:30h
-- **Lugar**: Aula de grados de la Facultad de Turismo de la Universidad de Málaga
-- **Ponente**: Raúl Montañez
+- **Título**: Búsquedas Bibliográficas Eficientes
+- **Fecha y Hora**: 21 de Noviembre, 18:30h
+- **Lugar**: Aula de grados de la Facultad de Humanidades de la Universidad de Huelva
+- **Ponente**: Pedro margolles
 
 {::nomarkdown}
-<img src="{{ site.baseurl }}/img/conferencias/NAND-gate.png">
-<div class="piefoto"> Las puertas lógicas pueden ser codificadas en circuitos genéticos </div>
+<img src="{{ site.baseurl }}img/conferencias/bibliograficas-eficientes.png">
+<div class="piefoto"> Con unos trucos muy básicos aumentaremos la eficiente al trabajar con artículos e información </div>
 {:/nomarkdown}
 
-**Abstract**:
-Los seres vivos, desde las bacterias a los organismos multicelulares más masivos, han de ser capaces de responder a las variaciones del entorno. La vida, en si misma, se perpetúa gracias a haber desarrollado una multiplicidad de mecanismos de detección y respuesta a los que la evolución ha elevado hasta límites sorprendentes. Pero, *¿en qué se basan estas respuestas?* *¿podría existir un paralelismo entre las estructuras de computación lógica que diseñamos para nuestros ordenadores y las estructuras de control de los organismos vivos?*
+¿Deseas saber cómo y dónde puedes encontrar la información más adecuada para tu estudio en Internet? ¿Quieres tomar por fin el control de tu investigación y ser más productivo en tus búsquedas bibliográficas? ¿Te gustaría saber cómo leer y entender un artículo científico? Entonces no te puedes perder esta charla. **En ella aprenderás todo lo necesario para que la búsqueda de información en tu próxima investigación científica ya no suponga ningún inconveniente para ti.**
 
-**La biología sintética nos ofrece la posibilidad de explorar estos paralelismos, rediseñando equivalentes lógicos simplificados con los que recrear las funciones de regulación observadas en la naturaleza y de desentrañar la lógica de los seres vivos y las sus posibles universalidades en el arbol de la evolución.**
+Conocerás, entre otras muchas cosas, cómo comenzar a buscar información relacionada con tu pregunta de investigación; cómo gestionar el tiempo para ser más productivo en tu labor como científico; cómo organizar tus búsquedas documentales; cómo conseguir, descargar y organizar los artículos científicos obtenidos; cómo leer un paper de principio a fin sin agobiarte y cuándo has de terminar tus búsquedas bibliográficas. Asimismo, encontrarás herramientas, recursos y materiales que te permitirán dar un giro radical a tu forma de investigar y dejar de perder el tiempo en tus búsquedas de información científica. **Si de verdad quieres averiguar todos los secretos para que tu estudio deje de darte problemas, "Búsquedas Bibliográficas Eficientes" es para ti.**
 
 Previamente a la conferencia se realizará la presentación del proyecto Impaciencia :)
