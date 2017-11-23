@@ -35,6 +35,10 @@
   contacts:
       - name: Correo
         link: "miguelfortes@uma.es"
+      - name: Web (Próximamente)
+        link:
+      - name: Twitter
+        link: https://twitter.com/lacreducativa
       - name: Github
         link: https://github.com/Lacroquetaeducativa
 
@@ -50,11 +54,33 @@
 
 - name: "The Open Bacteria Project"
   estudios: "Mtr. en Matemáticas (UGR), Mtr. en Física y Matemáticas (UGR), 2x[ Ing. Informática (UGR) ], Biología (UGR), Mtr. Ciencia de Datos e Ingeniería de Computadores (UGR) y 2x[ Química (UMA) ]"
-  short-bio: "Plato principal: salteado de biología, medicina e informática."
+  short-bio: "Es una interesante combinación entre biología, matemáticas e informática para desarrollar una herramienta de ciencia abierta."
   image: img/equipos/TOB.png
   contacts:
       - name: Correo
         link: "jesusbuenourbano@gmail.com"
+      - name: Twitter
+        link: https://twitter.com/TheOpenBacteria
+      - name: Github (Próximamente)
+        link:
+
+- name: "Los Circo"
+  estudios: "Psicología (UCA), Filología Hispánica (UCA) y Administración y Dirección de empresa (UCA)"
+  short-bio: "Nos centramos en un proyecto que aborda el impacto de las sectas desde el punto de vista económico, psicológico y político."
+  image: img/equipos/los_circo.png
+  contacts:
+      - name: Correo
+        link: "1415.mateos.juancarlos@gmail.com"
+      - name: Github (Próximamente)
+        link:
+
+- name: "Ragnarock & Roll"
+  estudios: "3x[ Filología Hispánica (UCA) ], Filología Clásica (UCA), Doble Grado Filología Hispánica e Inglesa "
+  short-bio: "Trata sobre el lenguaje, las enfermedades y evolución del mismo."
+  image: img/equipos/sin.jpg
+  contacts:
+      - name: Correo
+        link: "anabelgc00@gmail.com"
       - name: Github (Próximamente)
         link:
 
