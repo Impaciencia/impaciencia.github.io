@@ -16,7 +16,7 @@ El proyecto Impaciencia en colaboración con la Biblioteca de la Facultad de Cie
 
 {::nomarkdown}
 <img src="{{ site.baseurl }}/img/blog/tecnoteca-banner.jpg">
-<div class="piefoto"> Con unos trucos muy básicos aumentaremos la eficiente al trabajar con artículos e información </div>
+<div class="piefoto"> Ven a la presentación de la tecnoteca el próximo martes 28 de noviembre </div>
 {:/nomarkdown}
 
 Estos dispositivos son fáciles de utilizar y muy versátiles. Tanto que a diario son utilizados en todo el mundo para **construir desde instrumental científico de bajo coste a instalaciones artísticas interactivas pasando por robots**. La gran mayoría de estos proyectos son descritos en internet por lo que cualquier persona con acceso a las placas puede volver a llevarlos a cabo sin tener que ser expertos en electrónica o informática.
