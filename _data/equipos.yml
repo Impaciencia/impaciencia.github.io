@@ -53,12 +53,12 @@
         link:
 
 - name: "The Open Bacteria Project"
-  estudios: "Mtr. en Matemáticas (UGR), Mtr. en Física y Matemáticas (UGR), 2x[ Ing. Informática (UGR) ], Biología (UGR), Mtr. Ciencia de Datos e Ingeniería de Computadores (UGR) y 2x[ Química (UMA) ]"
+  estudios: "Mtr. en Matemáticas (UGR), Mtr. en Física y Matemáticas (UGR), 2x[ Ing. Informática (UGR) ], Biología (UGR), Mtr. Ciencia de Datos e Ingeniería de Computadores (UGR) y 2x[ Química (UGR) ]"
   short-bio: "Es una interesante combinación entre biología, matemáticas e informática para desarrollar una herramienta de ciencia abierta."
   image: img/equipos/TOB.png
   contacts:
       - name: Correo
-        link: "jesusbuenourbano@gmail.com"
+        link: "theopenbacteria@protonmail.com"
       - name: Twitter
         link: https://twitter.com/TheOpenBacteria
       - name: Github (Próximamente)
