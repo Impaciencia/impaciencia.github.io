@@ -7,7 +7,7 @@ categories:
 - openscience
 - maker
 - construcción
-thumbnail: /img/conferencias/impaciencia-ugr-9-enero.png
+thumbnail: /img/conferencias/Impaciencia-ugr-9-enero.png
 layout: post
 ---
 
