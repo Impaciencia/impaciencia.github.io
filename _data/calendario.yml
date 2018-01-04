@@ -107,7 +107,6 @@
   contactlink: http://blog.elcacharreo.com/
 
 
-
 - date: 2018-01-11 18:30:00 Z
   description: "Segunda **charla Informativa del concurso Impaciencia en Sevilla**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
@@ -116,7 +115,7 @@
   contactlink: http://www.impaciencia.org
 
 - date: 2018-01-11 19:00:00 Z
-  description: "Conferencia: **Un biologo, un ingenerio y un diseñador grafico entran en un bar... o cómo investigar qué les pasa a las abejas**"
+  description: "Conferencia: **Un biólogo, un ingeniero y un diseñador gráfico entran en un bar... o cómo investigar qué les pasa a las abejas**"
   people: Ignasi Bartomeus
   place: US. Pronto más información
   contact: BartomeusLab

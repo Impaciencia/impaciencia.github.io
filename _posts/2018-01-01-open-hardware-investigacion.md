@@ -13,8 +13,8 @@ layout: post
 
 - **Título**: Crea tu Instrumental de Laboratorio con Open Hardware.
 - **Fecha y Hora**: 9 de Enero, 18:30h
-- **Lugar**: Salón de Grados. Facultad de Ciencias. Universidad de Granda
-- **Ponente**: Carlos Vivar
+- **Lugar**: Salón de Grados. Facultad de Ciencias. Universidad de Granada
+- **Ponente**: José Antonio Vacas Martínez ![Blog elcacharreo.com](http://elcacharreo.com)
 
 {::nomarkdown}
 <img src="{{ site.baseurl }}/img/conferencias/ugr-9-enero.jpg">
