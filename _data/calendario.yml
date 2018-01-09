@@ -121,16 +121,6 @@
   contact: BartomeusLab
   contactlink: http://www.bartomeuslab.com
 
-
-
-- date: 2018-01-18 18:30:00 Z
-  description: "Segunda **charla Informativa del concurso Impaciencia en Cádiz**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis."
-  people: Organización Impaciencia
-  place: UCA. Pronto más información
-  contact: impaciencia.org
-  contactlink: http://www.impaciencia.org
-
-
 - date: 2018-01-23 18:30:00 Z
   description: "Segunda **charla Informativa del concurso Impaciencia en Huelva**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis."
   people: Organización Impaciencia
@@ -138,21 +128,18 @@
   contact: impaciencia.org
   contactlink: http://www.impaciencia.org
 
-
-
 - date: 2018-01-25 18:30:00 Z
   description: "Tercera **charla Informativa del concurso Impaciencia en Málaga**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
-  place: UMA. Pronto más información
-  contact: impaciencia.org
+  place: UMA. Facultad de Ciencias. Salón de Actos
   contactlink: http://www.impaciencia.org
 
 - date: 2018-01-09 19:00:00 Z
-  description: "**Conferencia sobre ciencia ciudadana** ¿Puede alguien hacer investigación sin ser invetigador? Ven a descubrirlo a esta charla."
+  description: "**Ciencia ciudadana: cómo implicar a la sociedad en el proceso científico."
   people: María Vicioso
-  place: UMA. Pronto más información
-  contact: Elcacharreo.com
-  contactlink: http://blog.elcacharreo.com/
+  place: UMA. Facultad de Ciencias. Salón de Actos
+  contact: impaciencia.org
+  contactlink: http://impaciencia.org
 
 
 - date: 2018-02-15 23:59:00 Z
@@ -161,8 +148,6 @@
   place: En tu casa
   contact: impaciencia.org
   contactlink: mailto:info@impaciencia.org
-
-
 
 - date: 2018-03-17 9:30:00 Z
   description: "**Festival Impaciencia**. Un evento donde además de exponerse aquellos proyectos finales para su evaluación final, se podrá disfrutar de conciertos, exposiciones, conferencias y un hackaton. Esta será vuestra fiesta :) Si se te ocurre alguna actividad que quieras hacer en este espacio, dínoslo"
