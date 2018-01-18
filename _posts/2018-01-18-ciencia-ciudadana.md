@@ -7,7 +7,7 @@ categories:
 - "ciencia ciudadana"
 - DIY
 - DIYBio
-thumbnail: /img/conferencias/maria-cartel.jpg
+thumbnail: /img/conferencias/maria-cartel.png
 layout: post
 ---
 
@@ -17,7 +17,7 @@ layout: post
 - **Ponente**: María Vicioso Casañal
 
 {::nomarkdown}
-<img src="{{ site.baseurl }}/img/conferencias/maria-cartel.jpg">
+<img src="{{ site.baseurl }}/img/conferencias/maria-cartel.png">
 <div class="piefoto"> Ven a la charla el próximo martes 25 de enero :) </div>
 {:/nomarkdown}
 

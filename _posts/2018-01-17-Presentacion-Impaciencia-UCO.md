@@ -1,6 +1,6 @@
 ---
 title: "[Presentación, 19 de Enero] Presentación Impaciencia en la Universidad de Córdoba"
-date: 2017-01-5 09:00:53 Z
+date: 2018-01-5 09:00:53 Z
 author: "impaciente-001"
 categories:
 - Impaciencia
