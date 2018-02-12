@@ -57,14 +57,14 @@
 - date: 2017-11-28 18:30:00 Z
   description: "**Charla informativa del concurso Impaciencia en Granada**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
   people: Organización Impaciencia
-  place: UGR. Pronto más información
+  place: UGR. ETSII
   contact: impaciencia.org
   contactlink: http://www.impaciencia.org
 
 - date: 2017-11-28 19:00:00 Z
-  description: "**Conferencia sobre grupos makers y hacklabs de Andalucia**. ¿Cúal puede ser el papel de estos espacios en la investigación?"
-  people: Pronto más información
-  place: UGR. Pronto más información
+  description: "**Charla sobre herramientas para mejorar la reproducibilidad** Uso de Github y Jupyter Notebooks en Investigación"
+  people: Carlos Vivar
+  place: UGR. ETSII
   contact: impaciencia.org
   contactlink: http://www.impaciencia.org
 
@@ -145,16 +145,22 @@
   place: UMA. Facultad de Ciencias. Salón de Actos
   contact: impaciencia.org
   contactlink: http://impaciencia.org
+  
+  - date: 2018-02-13 16:30:00 Z
+  description: "**Charla Informativa del concurso Impaciencia en Málaga**. Explicaremos todos los detalles y resolveremos todas las dudas que tengáis"
+  people: Organización Impaciencia
+  place: UAL. 
+  contactlink: http://www.impaciencia.org
 
 
-- date: 2018-03-11 23:59:00 Z
+- date: 2018-04-20 23:59:00 Z
   description: "**Fecha final para la entrega de los repositorios** que contengan los diferentes proyectos. No esperéis hasta el último momento."
   people: Organización Impaciencia
   place: En tu casa
   contact: impaciencia.org
   contactlink: mailto:info@impaciencia.org
 
-- date: 2018-03-17 9:30:00 Z
+- date: 2018-04-28 9:30:00 Z
   description: "**Festival Impaciencia**. Un evento donde además de exponerse aquellos proyectos finales para su evaluación final, se podrá disfrutar de conciertos, exposiciones, conferencias y un hackaton. Esta será vuestra fiesta :) Si se te ocurre alguna actividad que quieras hacer en este espacio, dínoslo"
   people: Organización Impaciencia
   place: Campus de Teatinos. Universidad de Málaga
